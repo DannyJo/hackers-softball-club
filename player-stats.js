@@ -19,7 +19,7 @@ var players = [
         name: "Darren Corner",
         type: "ROSTERED",
         stats: {
-            atBat: 4,
+            atBat: 3,
             hits: 3,
             walks: 1,
             runsBattedIn: 3,
@@ -124,7 +124,7 @@ var players = [
         name: "Ella Mills",
         type: "ROSTERED",
         stats: {
-            atBat: 4,
+            atBat: 1,
             hits: 1,
             walks: 3,
             runsBattedIn: 0,
