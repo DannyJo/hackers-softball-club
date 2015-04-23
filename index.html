@@ -28,7 +28,7 @@
 
                 $scope.guestFilter = function(player) {
                     return player.type !== "GUEST" || $scope.showGuests;
-                }
+                };
 
                 $scope.getStyleForMatchOutcome = function (outcome) {
                     if (outcome === "WIN") {
@@ -40,15 +40,23 @@
                     } else {
                         return "label-default";
                     }
-                }
+                };
+
+                $scope.playerOrderByBattingAverage = function(player) {
+                    return (player.stats.hits / player.stats.atBat);
+                };
 
                 $scope.orderPlayersBy = function (field) {
-                    if (field === $scope.playerOrderBy) {
+                    if (field === $scope.playerOrderBy || (field === "stats.battingAverage" && $scope.playerOrderBy === $scope.playerOrderByBattingAverage)) {
                         $scope.playerOrderByReversed = !$scope.playerOrderByReversed;
                     }
 
-                    $scope.playerOrderBy = field;
-                }
+                    if (field === "stats.battingAverage") {
+                        $scope.playerOrderBy = $scope.playerOrderByBattingAverage;
+                    } else {
+                        $scope.playerOrderBy = field;
+                    }
+                };
             });
         </script>
     </head>
@@ -63,19 +71,19 @@
 
                     <table class="table table-striped">
                         <thead>
-                        <tr>
-                            <th><a href="#" ng-click="orderPlayersBy('name')">Player</a></th>
-                            <th title="Number of times player has batted"><a href="#" ng-click="orderPlayersBy('stats.atBat')">AB</a></th>
-                            <th title="Number of hits where player made it to base"><a href="#" ng-click="orderPlayersBy('stats.hits')">H</a></th>
-                            <th title="Number of times player walked while at bat"><a href="#" ng-click="orderPlayersBy('stats.walks')">BB</a></th>
-                            <th title="Number of other players scored a run from the players at bat"><a href="#" ng-click="orderPlayersBy('stats.runsBattedIn')">RBI</a></th>
-                            <th title="Number of times reaching first base from batting"><a href="#" ng-click="orderPlayersBy('stats.firstBase')">1B</a></th>
-                            <th title="Number of times reaching second base from batting"><a href="#" ng-click="orderPlayersBy('stats.secondBase')">2B</a></th>
-                            <th title="Number of times reaching third base from batting"><a href="#" ng-click="orderPlayersBy('stats.thirdBase')">3B</a></th>
-                            <th title="Number of home runs"><a href="#" ng-click="orderPlayersBy('stats.homeRuns')">HR</a></th>
-                            <th title="Number of times struck out while at bat"><a href="#" ng-click="orderPlayersBy('stats.struckOut')">K</a></th>
-                            <th title="Batting average">AVG (H/AB)</th>
-                        </tr>
+                            <tr>
+                                <th><a href="#" ng-click="orderPlayersBy('name')">Player</a></th>
+                                <th title="Number of times player has batted"><a href="#" ng-click="orderPlayersBy('stats.atBat')">AB</a></th>
+                                <th title="Number of hits where player made it to base"><a href="#" ng-click="orderPlayersBy('stats.hits')">H</a></th>
+                                <th title="Number of times player walked while at bat"><a href="#" ng-click="orderPlayersBy('stats.walks')">BB</a></th>
+                                <th title="Number of other players scored a run from the players at bat"><a href="#" ng-click="orderPlayersBy('stats.runsBattedIn')">RBI</a></th>
+                                <th title="Number of times reaching first base from batting"><a href="#" ng-click="orderPlayersBy('stats.firstBase')">1B</a></th>
+                                <th title="Number of times reaching second base from batting"><a href="#" ng-click="orderPlayersBy('stats.secondBase')">2B</a></th>
+                                <th title="Number of times reaching third base from batting"><a href="#" ng-click="orderPlayersBy('stats.thirdBase')">3B</a></th>
+                                <th title="Number of home runs"><a href="#" ng-click="orderPlayersBy('stats.homeRuns')">HR</a></th>
+                                <th title="Number of times struck out while at bat"><a href="#" ng-click="orderPlayersBy('stats.struckOut')">K</a></th>
+                                <th title="Batting average"><a href="#" ng-click="orderPlayersBy('stats.battingAverage')">AVG (H / AB)</a></th>
+                            </tr>
                         </thead>
 
                         <tbody>
