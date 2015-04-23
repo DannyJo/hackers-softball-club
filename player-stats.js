@@ -155,7 +155,7 @@ var players = [
         type: "ROSTERED",
         stats: {
             atBat: 4,
-            hits: 4,
+            hits: 2,
             walks: 0,
             runsBattedIn: 0,
             firstBase: 1,
