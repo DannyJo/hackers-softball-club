@@ -12,7 +12,8 @@ var players = [
             secondBase: 0,
             thirdBase: 0,
             homeRuns: 1,
-            struckOut: 1
+            struckOut: 1,
+            mvp: 0
         }
     },
     {
@@ -27,7 +28,8 @@ var players = [
             secondBase: 0,
             thirdBase: 0,
             homeRuns: 2,
-            struckOut: 0
+            struckOut: 0,
+            mvp: 0
         }
     },
     {
@@ -42,7 +44,8 @@ var players = [
             secondBase: 1,
             thirdBase: 0,
             homeRuns: 2,
-            struckOut: 0
+            struckOut: 0,
+            mvp: 1
         }
     },
     {
@@ -57,7 +60,8 @@ var players = [
             secondBase: 0,
             thirdBase: 0,
             homeRuns: 0,
-            struckOut: 0
+            struckOut: 0,
+            mvp: 0
         }
     },
     {
@@ -72,7 +76,8 @@ var players = [
             secondBase: 1,
             thirdBase: 0,
             homeRuns: 0,
-            struckOut: 0
+            struckOut: 0,
+            mvp: 0
         }
     },
     {
@@ -87,7 +92,8 @@ var players = [
             secondBase: 0,
             thirdBase: 0,
             homeRuns: 0,
-            struckOut: 0
+            struckOut: 0,
+            mvp: 0
         }
     },
     {
@@ -102,7 +108,8 @@ var players = [
             secondBase: 0,
             thirdBase: 0,
             homeRuns: 0,
-            struckOut: 1
+            struckOut: 1,
+            mvp: 0
         }
     },
     {
@@ -117,7 +124,8 @@ var players = [
             secondBase: 0,
             thirdBase: 0,
             homeRuns: 0,
-            struckOut: 0
+            struckOut: 0,
+            mvp: 0
         }
     },
     {
@@ -132,7 +140,8 @@ var players = [
             secondBase: 0,
             thirdBase: 0,
             homeRuns: 0,
-            struckOut: 0
+            struckOut: 0,
+            mvp: 1
         }
     },
     {
@@ -147,7 +156,8 @@ var players = [
             secondBase: 1,
             thirdBase: 0,
             homeRuns: 0,
-            struckOut: 1
+            struckOut: 1,
+            mvp: 0
         }
     },
     {
@@ -162,7 +172,8 @@ var players = [
             secondBase: 1,
             thirdBase: 0,
             homeRuns: 0,
-            struckOut: 1
+            struckOut: 1,
+            mvp: 0
         }
     },
     {
@@ -177,7 +188,8 @@ var players = [
             secondBase: 0,
             thirdBase: 0,
             homeRuns: 0,
-            struckOut: 0
+            struckOut: 0,
+            mvp: 0
         }
     }
 ];

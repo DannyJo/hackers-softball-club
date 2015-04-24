@@ -69,36 +69,38 @@
                     <h2>Player Stats</h2>
                     <!--<a class="btn btn-sm" href="#" ng-click="toggleShowGuests()" role="button">{{ showGuests ? 'Hide' : 'Show' }} Guests</a>-->
 
-                    <table class="table table-striped">
+                    <table class="table table-striped table-condensed table-hover">
                         <thead>
                             <tr>
                                 <th><a href="#" ng-click="orderPlayersBy('name')">Player</a></th>
-                                <th title="Number of times player has batted"><a href="#" ng-click="orderPlayersBy('stats.atBat')">AB</a></th>
-                                <th title="Number of hits where player made it to base"><a href="#" ng-click="orderPlayersBy('stats.hits')">H</a></th>
-                                <th title="Number of times player walked while at bat"><a href="#" ng-click="orderPlayersBy('stats.walks')">BB</a></th>
-                                <th title="Number of other players scored a run from the players at bat"><a href="#" ng-click="orderPlayersBy('stats.runsBattedIn')">RBI</a></th>
-                                <th title="Number of times reaching first base from batting"><a href="#" ng-click="orderPlayersBy('stats.firstBase')">1B</a></th>
-                                <th title="Number of times reaching second base from batting"><a href="#" ng-click="orderPlayersBy('stats.secondBase')">2B</a></th>
-                                <th title="Number of times reaching third base from batting"><a href="#" ng-click="orderPlayersBy('stats.thirdBase')">3B</a></th>
-                                <th title="Number of home runs"><a href="#" ng-click="orderPlayersBy('stats.homeRuns')">HR</a></th>
-                                <th title="Number of times struck out while at bat"><a href="#" ng-click="orderPlayersBy('stats.struckOut')">K</a></th>
-                                <th title="Batting average"><a href="#" ng-click="orderPlayersBy('stats.battingAverage')">AVG (H / AB)</a></th>
+                                <th class="text-center" title="Number of times player has batted"><a href="#" ng-click="orderPlayersBy('stats.atBat')">AB</a></th>
+                                <th class="text-center" title="Number of hits where player made it to base, excluding walks (BB)"><a href="#" ng-click="orderPlayersBy('stats.hits')">H</a></th>
+                                <th class="text-center" title="Number of times player walked while at bat"><a href="#" ng-click="orderPlayersBy('stats.walks')">BB</a></th>
+                                <th class="text-center" title="Number of other players scored a run from the players at bat"><a href="#" ng-click="orderPlayersBy('stats.runsBattedIn')">RBI</a></th>
+                                <th class="text-center warning" title="Number of times reaching first base from batting"><a href="#" ng-click="orderPlayersBy('stats.firstBase')">1B</a></th>
+                                <th class="text-center warning" title="Number of times reaching second base from batting"><a href="#" ng-click="orderPlayersBy('stats.secondBase')">2B</a></th>
+                                <th class="text-center warning" title="Number of times reaching third base from batting"><a href="#" ng-click="orderPlayersBy('stats.thirdBase')">3B</a></th>
+                                <th class="text-center warning" title="Number of home runs"><a href="#" ng-click="orderPlayersBy('stats.homeRuns')">HR</a></th>
+                                <th class="text-center" title="Number of times struck out while at bat"><a href="#" ng-click="orderPlayersBy('stats.struckOut')">K</a></th>
+                                <th class="text-center" title="Times received Most Valuable Player award from opposition"><a href="#" ng-click="orderPlayersBy('stats.mvp')">MVP</a></th>
+                                <th class="text-center" title="Batting average"><a href="#" ng-click="orderPlayersBy('stats.battingAverage')">AVG (H / AB)</a></th>
                             </tr>
                         </thead>
 
                         <tbody>
                         <tr ng-repeat="player in players | orderBy : playerOrderBy : playerOrderByReversed | filter: guestFilter" ng-class="{warning: player.type === 'GUEST'}">
                             <td>{{ player.name }}</td>
-                            <td>{{ player.stats.atBat }}</td>
-                            <td>{{ player.stats.hits }}</td>
-                            <td>{{ player.stats.walks }}</td>
-                            <td>{{ player.stats.runsBattedIn }}</td>
-                            <td>{{ player.stats.firstBase }}</td>
-                            <td>{{ player.stats.secondBase }}</td>
-                            <td>{{ player.stats.thirdBase }}</td>
-                            <td>{{ player.stats.homeRuns }}</td>
-                            <td>{{ player.stats.struckOut }}</td>
-                            <td>{{ (player.stats.hits / player.stats.atBat) | number: 3 }}</td>
+                            <td class="text-center">{{ player.stats.atBat }}</td>
+                            <td class="text-center">{{ player.stats.hits }}</td>
+                            <td class="text-center">{{ player.stats.walks }}</td>
+                            <td class="text-center">{{ player.stats.runsBattedIn }}</td>
+                            <td class="text-center warning">{{ player.stats.firstBase }}</td>
+                            <td class="text-center warning">{{ player.stats.secondBase }}</td>
+                            <td class="text-center warning">{{ player.stats.thirdBase }}</td>
+                            <td class="text-center warning">{{ player.stats.homeRuns }}</td>
+                            <td class="text-center">{{ player.stats.struckOut }}</td>
+                            <td class="text-center">{{ player.stats.mvp }}</td>
+                            <td class="text-center">{{ (player.stats.hits / player.stats.atBat) | number: 3 }}</td>
                         </tr>
                         </tbody>
                     </table>
@@ -111,7 +113,7 @@
                     </div>
                     <div class="row">
                         <h2>Results &amp; Fixtures</h2>
-                        <table class="table table-striped table-condensed">
+                        <table class="table table-striped table-condensed table-hover">
                             <thead>
                                 <tr>
                                     <th class="col-md-1">Outcome</th>
