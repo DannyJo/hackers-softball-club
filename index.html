@@ -81,83 +81,99 @@
 
             <div class="row">
                 <div class="col-md-7">
-                    <h2>Player Stats</h2>
-                    <!--<a class="btn btn-sm" href="#" ng-click="toggleShowGuests()" role="button">{{ showGuests ? 'Hide' : 'Show' }} Guests</a>-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Player Stats</h2>
+                            <!--<a class="btn btn-sm" href="#" ng-click="toggleShowGuests()" role="button">{{ showGuests ? 'Hide' : 'Show' }} Guests</a>-->
 
-                    <table class="table table-striped table-condensed table-hover">
-                        <thead>
-                            <tr>
-                                <th><a href="#" ng-click="orderPlayersBy('name')">Player</a></th>
-                                <th class="text-center" title="Number of times player has batted"><a href="#" ng-click="orderPlayersBy('stats.atBat')">AB</a></th>
-                                <th class="text-center" title="Number of hits where player made it to base, excluding walks (BB)"><a href="#" ng-click="orderPlayersBy('stats.hits')">H</a></th>
-                                <th class="text-center" title="Number of times player walked while at bat"><a href="#" ng-click="orderPlayersBy('stats.walks')">BB</a></th>
-                                <th class="text-center" title="Number of other players scored a run from the players at bat"><a href="#" ng-click="orderPlayersBy('stats.runsBattedIn')">RBI</a></th>
-                                <th class="text-center warning" title="Number of times reaching first base from batting"><a href="#" ng-click="orderPlayersBy('stats.firstBase')">1B</a></th>
-                                <th class="text-center warning" title="Number of times reaching second base from batting"><a href="#" ng-click="orderPlayersBy('stats.secondBase')">2B</a></th>
-                                <th class="text-center warning" title="Number of times reaching third base from batting"><a href="#" ng-click="orderPlayersBy('stats.thirdBase')">3B</a></th>
-                                <th class="text-center warning" title="Number of home runs"><a href="#" ng-click="orderPlayersBy('stats.homeRuns')">HR</a></th>
-                                <th class="text-center" title="Number of times struck out while at bat"><a href="#" ng-click="orderPlayersBy('stats.struckOut')">K</a></th>
-                                <th class="text-center" title="Times received Most Valuable Player award from opposition"><a href="#" ng-click="orderPlayersBy('stats.mvp')">MVP</a></th>
-                                <th class="text-center" title="Batting average"><a href="#" ng-click="orderPlayersBy('stats.battingAverage')">AVG (H / AB)</a></th>
-                            </tr>
-                        </thead>
+                            <table class="table table-striped table-condensed table-hover">
+                                <thead>
+                                    <tr>
+                                        <th><a href="#" ng-click="orderPlayersBy('name')">Player</a></th>
+                                        <th class="text-center" title="Number of times player has batted"><a href="#" ng-click="orderPlayersBy('stats.atBat')">AB</a></th>
+                                        <th class="text-center" title="Number of hits where player made it to base, excluding walks (BB)"><a href="#" ng-click="orderPlayersBy('stats.hits')">H</a></th>
+                                        <th class="text-center" title="Number of times player walked while at bat"><a href="#" ng-click="orderPlayersBy('stats.walks')">BB</a></th>
+                                        <th class="text-center" title="Number of other players scored a run from the players at bat"><a href="#" ng-click="orderPlayersBy('stats.runsBattedIn')">RBI</a></th>
+                                        <th class="text-center warning" title="Number of times reaching first base from batting"><a href="#" ng-click="orderPlayersBy('stats.firstBase')">1B</a></th>
+                                        <th class="text-center warning" title="Number of times reaching second base from batting"><a href="#" ng-click="orderPlayersBy('stats.secondBase')">2B</a></th>
+                                        <th class="text-center warning" title="Number of times reaching third base from batting"><a href="#" ng-click="orderPlayersBy('stats.thirdBase')">3B</a></th>
+                                        <th class="text-center warning" title="Number of home runs"><a href="#" ng-click="orderPlayersBy('stats.homeRuns')">HR</a></th>
+                                        <th class="text-center" title="Number of times struck out while at bat"><a href="#" ng-click="orderPlayersBy('stats.struckOut')">K</a></th>
+                                        <th class="text-center" title="Times received Most Valuable Player award from opposition"><a href="#" ng-click="orderPlayersBy('stats.mvp')">MVP</a></th>
+                                        <th class="text-center" title="Batting average"><a href="#" ng-click="orderPlayersBy('stats.battingAverage')">AVG (H / AB)</a></th>
+                                    </tr>
+                                </thead>
 
-                        <tbody>
-                        <tr ng-repeat="player in players | orderBy : playerOrderBy : playerOrderByReversed | filter: guestFilter" ng-class="{warning: player.type === 'GUEST'}">
-                            <td>{{ player.name }}</td>
-                            <td class="text-center">{{ player.stats.atBat }}</td>
-                            <td class="text-center">{{ player.stats.hits }}</td>
-                            <td class="text-center">{{ player.stats.walks }}</td>
-                            <td class="text-center">{{ player.stats.runsBattedIn }}</td>
-                            <td class="text-center warning">{{ player.stats.firstBase }}</td>
-                            <td class="text-center warning">{{ player.stats.secondBase }}</td>
-                            <td class="text-center warning">{{ player.stats.thirdBase }}</td>
-                            <td class="text-center warning">{{ player.stats.homeRuns }}</td>
-                            <td class="text-center">{{ player.stats.struckOut }}</td>
-                            <td class="text-center">{{ player.stats.mvp }}</td>
-                            <td class="text-center">{{ (player.stats.hits / player.stats.atBat) | number: 3 }}</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                                <tbody>
+                                <tr ng-repeat="player in players | orderBy : playerOrderBy : playerOrderByReversed | filter: guestFilter" ng-class="{warning: player.type === 'GUEST'}">
+                                    <td>{{ player.name }}</td>
+                                    <td class="text-center">{{ player.stats.atBat }}</td>
+                                    <td class="text-center">{{ player.stats.hits }}</td>
+                                    <td class="text-center">{{ player.stats.walks }}</td>
+                                    <td class="text-center">{{ player.stats.runsBattedIn }}</td>
+                                    <td class="text-center warning">{{ player.stats.firstBase }}</td>
+                                    <td class="text-center warning">{{ player.stats.secondBase }}</td>
+                                    <td class="text-center warning">{{ player.stats.thirdBase }}</td>
+                                    <td class="text-center warning">{{ player.stats.homeRuns }}</td>
+                                    <td class="text-center">{{ player.stats.struckOut }}</td>
+                                    <td class="text-center">{{ player.stats.mvp }}</td>
+                                    <td class="text-center">{{ (player.stats.hits / player.stats.atBat) | number: 3 }}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Fundraising</h2>
+                            <iframe src="http://wfyw.easyfundraising.org.uk/?id=127312" width="100%" height="1800" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-5">
                     <div class="row">
-                        <h2>League Table</h2>
-                        <iframe src="https://docs.google.com/spreadsheet/pub?key=0AtNVlbOWL1VkdE9ubnFqNUNJZXVzU283UHZ0WGQxeVE&amp;single=true&amp;gid=5&amp;range=a1%3Aj10&amp;output=html" width="536" height="210" frameborder="0" scrolling="no"></iframe>
+                        <div class="col-md-12">
+                            <h2>League Table</h2>
+                            <iframe src="https://docs.google.com/spreadsheet/pub?key=0AtNVlbOWL1VkdE9ubnFqNUNJZXVzU283UHZ0WGQxeVE&amp;single=true&amp;gid=5&amp;range=a1%3Aj10&amp;output=html" width="536" height="210" frameborder="0" scrolling="no"></iframe>
+                        </div>
                     </div>
                     <div class="row">
-                        <h2>Results &amp; Fixtures</h2>
-                        Calendar: <a href="http://hackers-softball.club/calendars/2015.ics">http://hackers-softball.club/calendars/2015.ics</a>
+                        <div class="col-md-12">
+                            <h2>Results &amp; Fixtures</h2>
+                            Calendar: <a href="http://hackers-softball.club/calendars/2015.ics">http://hackers-softball.club/calendars/2015.ics</a>
 
-                        <table class="table table-striped table-condensed table-hover">
-                            <thead>
-                                <tr>
-                                    <th class="col-md-1">Outcome</th>
-                                    <th class="col-md-2">Date</th>
-                                    <th class="col-md-1">Home/Away</th>
-                                    <th>Opposition</th>
-                                    <th class="col-md-1">Pitch</th>
-                                    <th>MVPs</th>
-                                    <th class="col-md-2">Result</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr ng-repeat="match in matches">
-                                    <td><span class="label" ng-class="getStyleForMatchOutcome(match.outcome)">{{ match.outcome }}</span></td>
-                                    <td>{{ match.date }}</td>
-                                    <td>{{ match.place }}</td>
-                                    <td>{{ match.opposition }}</td>
-                                    <td>{{ match.pitch }}</td>
-                                    <td>{{ match.mvp }}</td>
-                                    <td>{{ match.result }}</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                            <table class="table table-striped table-condensed table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="col-md-1">Outcome</th>
+                                        <th class="col-md-2">Date</th>
+                                        <th class="col-md-1">Home/Away</th>
+                                        <th>Opposition</th>
+                                        <th class="col-md-1">Pitch</th>
+                                        <th>MVPs</th>
+                                        <th class="col-md-2">Result</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="match in matches">
+                                        <td><span class="label" ng-class="getStyleForMatchOutcome(match.outcome)">{{ match.outcome }}</span></td>
+                                        <td>{{ match.date }}</td>
+                                        <td>{{ match.place }}</td>
+                                        <td>{{ match.opposition }}</td>
+                                        <td>{{ match.pitch }}</td>
+                                        <td>{{ match.mvp }}</td>
+                                        <td>{{ match.result }}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div class="row">
-                        <h2>Parrs Wood pitch map</h2>
-                        <img src="http://manchester-softball.co.uk/wp-content/uploads/2012/10/Parrs-Wood-Pitch-Map.jpg" width="100%"/>
+                        <div class="col-md-12">
+                            <h2>Parrs Wood pitch map</h2>
+                            <img src="http://manchester-softball.co.uk/wp-content/uploads/2012/10/Parrs-Wood-Pitch-Map.jpg" width="100%"/>
+                        </div>
                     </div>
                 </div>
             </div>
