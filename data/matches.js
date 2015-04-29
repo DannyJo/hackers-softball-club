@@ -11,11 +11,12 @@ var matches = [
         pitch: "PW 8"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Away",
         date: "28/04/2015",
         opposition: "Barflies",
-        result: "",
+        result: "28 - 19",
+        mvp: "Ella Mills & Ian Mills",
         pitch: "PW 2"
     },
     {
