@@ -20,11 +20,12 @@ var matches = [
         pitch: "PW 2"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Home",
         date: "05/05/2015",
         opposition: "Freeze",
-        result: "",
+        result: "19 - 4",
+        mvp: "Kay Carter & Ian Mills",
         pitch: "PW 7"
     },
     {
