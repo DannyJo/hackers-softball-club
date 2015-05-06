@@ -24,7 +24,7 @@ var matches = [
         place: "Home",
         date: "05/05/2015",
         opposition: "Freeze",
-        result: "19 - 4",
+        result: "4 - 19",
         mvp: "Kay Carter & Ian Mills",
         pitch: "PW 7"
     },
