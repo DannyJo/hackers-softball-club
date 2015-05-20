@@ -3,6 +3,7 @@ var players = [
         name: "Daniel Johansson",
         type: "ROSTERED",
         role: "CAPTAIN",
+        gender: "male",
         stats: {
             atBat: 13,
             hits: 10,
@@ -19,6 +20,7 @@ var players = [
     {
         name: "Darren Corner",
         type: "ROSTERED",
+        gender: "male",
         stats: {
             atBat: 11,
             hits: 10,
@@ -35,6 +37,7 @@ var players = [
     {
         name: "Ian Mills",
         type: "ROSTERED",
+        gender: "male",
         stats: {
             atBat: 17,
             hits: 17,
@@ -51,6 +54,7 @@ var players = [
     {
         name: "Andy Shaw",
         type: "ROSTERED",
+        gender: "male",
         stats: {
             atBat: 16,
             hits: 14,
@@ -67,6 +71,7 @@ var players = [
     {
         name: "Dave Ogden",
         type: "ROSTERED",
+        gender: "male",
         stats: {
             atBat: 16,
             hits: 10,
@@ -83,6 +88,7 @@ var players = [
     {
         name: "Ian Radford",
         type: "ROSTERED",
+        gender: "male",
         stats: {
             atBat: 8,
             hits: 8,
@@ -99,6 +105,7 @@ var players = [
     {
         name: "Amy Calladine",
         type: "ROSTERED",
+        gender: "female",
         stats: {
             atBat: 17,
             hits: 6,
@@ -115,6 +122,7 @@ var players = [
     {
         name: "Bev Hurren",
         type: "ROSTERED",
+        gender: "female",
         stats: {
             atBat: 4,
             hits: 2,
@@ -131,6 +139,7 @@ var players = [
     {
         name: "Ella Mills",
         type: "ROSTERED",
+        gender: "female",
         stats: {
             atBat: 10,
             hits: 6,
@@ -147,6 +156,7 @@ var players = [
     {
         name: "Kay Carter",
         type: "ROSTERED",
+        gender: "female",
         stats: {
             atBat: 18,
             hits: 12,
@@ -163,6 +173,7 @@ var players = [
     {
         name: "Suzi Wolfram",
         type: "ROSTERED",
+        gender: "female",
         stats: {
             atBat: 13,
             hits: 6,
@@ -179,6 +190,7 @@ var players = [
     {
         name: "Pete Rushton",
         type: "ROSTERED",
+        gender: "male",
         stats: {
             atBat: 7,
             hits: 7,
@@ -195,6 +207,7 @@ var players = [
     {
         name: "Rachel Naylor",
         type: "ROSTERED",
+        gender: "female",
         stats: {
             atBat: 4,
             hits: 2,
@@ -211,6 +224,7 @@ var players = [
     {
         name: "Kate",
         type: "ROSTERED",
+        gender: "female",
         stats: {
             atBat: 4,
             hits: 3,
@@ -227,6 +241,7 @@ var players = [
     {
         name: "Jane Curley (Guest / Dodgers)",
         type: "GUEST",
+        gender: "female",
         stats: {
             atBat: 16,
             hits: 8,
