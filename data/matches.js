@@ -37,11 +37,12 @@ var matches = [
         pitch: ""
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Away",
         date: "19/05/2015",
         opposition: "Phoenix",
-        result: "",
+        result: "19 - 0",
+        mvp: "Ella Mills & Daniel Johansson",
         pitch: "PW 9"
     },
     {
