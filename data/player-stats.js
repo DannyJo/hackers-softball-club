@@ -222,7 +222,7 @@ var players = [
         }
     },
     {
-        name: "Kate",
+        name: "Kate Halligan",
         type: "ROSTERED",
         gender: "female",
         stats: {
