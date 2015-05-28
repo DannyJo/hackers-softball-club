@@ -46,11 +46,12 @@ var matches = [
         pitch: "PW 9"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Home",
         date: "26/05/2015",
         opposition: "Moorkats",
-        result: "",
+        result: "16 - 25",
+        mvp: "Ella Mills & Andy Shaw",
         pitch: "PW 1"
     },
     {
