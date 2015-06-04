@@ -55,11 +55,11 @@ var matches = [
         pitch: "PW 1"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "POSTPONED",
         place: "Home",
         date: "02/06/2015",
         opposition: "Wildcats",
-        result: "",
+        result: "25/08/15",
         pitch: "PW 3"
     },
     {
@@ -68,7 +68,7 @@ var matches = [
         date: "09/06/2015",
         opposition: "Colt 45s",
         result: "",
-        pitch: "TBA"
+        pitch: "PW 1"
     },
     {
         outcome: "FIXTURE",
@@ -76,7 +76,7 @@ var matches = [
         date: "16/06/2015",
         opposition: "Mavericks II",
         result: "",
-        pitch: "TBA"
+        pitch: "PW 4"
     },
     {
         outcome: "FIXTURE",
@@ -84,7 +84,7 @@ var matches = [
         date: "23/06/2015",
         opposition: "Drizzle",
         result: "",
-        pitch: "TBA"
+        pitch: "PW 6"
     },
     {
         outcome: "FIXTURE",
@@ -147,6 +147,14 @@ var matches = [
         place: "Away",
         date: "18/08/2015",
         opposition: "Mavericks II",
+        result: "",
+        pitch: "TBA"
+    },
+    {
+        outcome: "FIXTURE",
+        place: "Home",
+        date: "25/08/2015",
+        opposition: "Wildcats",
         result: "",
         pitch: "TBA"
     }

@@ -43,6 +43,8 @@
                         return "label-danger";
                     } else if (outcome === "RESTING") {
                         return "label-info";
+                    } else if (outcome === "POSTPONED") {
+                        return "label-warning";
                     } else {
                         return "label-default";
                     }
@@ -157,7 +159,7 @@
                                         <th>Opposition</th>
                                         <th class="col-md-1">Pitch</th>
                                         <th>MVPs</th>
-                                        <th class="col-md-2">Result</th>
+                                        <th class="col-md-1">Result</th>
                                     </tr>
                                 </thead>
                                 <tbody>
