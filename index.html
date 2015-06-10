@@ -65,6 +65,10 @@
                         $scope.playerOrderBy = field;
                     }
                 };
+
+                $scope.isStatsCorrect = function(stats) {
+                    return stats.hits === (stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns + stats.walks);
+                }
             });
         </script>
 
@@ -107,6 +111,7 @@
                                         <th class="text-center" title="Number of times struck out while at bat"><a href="#" ng-click="orderPlayersBy('stats.struckOut')">K</a></th>
                                         <th class="text-center" title="Times received Most Valuable Player award from opposition"><a href="#" ng-click="orderPlayersBy('stats.mvp')">MVP</a></th>
                                         <th class="text-center" title="Batting average"><a href="#" ng-click="orderPlayersBy('stats.battingAverage')">AVG (H / AB)</a></th>
+                                        <th class="text-center" title="Stats anomaly detected?"></th>
                                     </tr>
                                 </thead>
 
@@ -125,6 +130,7 @@
                                     <td class="text-center">{{ player.stats.struckOut }}</td>
                                     <td class="text-center">{{ player.stats.mvp }}</td>
                                     <td class="text-center">{{ (player.stats.hits / player.stats.atBat) | number: 3 }}</td>
+                                    <td class="text-center"><span ng-if="!isStatsCorrect(player.stats)" title="Hits does not match BB, 1B, 2B, 3B, HR" class="label label-danger">ERROR</span></td>
                                 </tr>
                                 </tbody>
                             </table>
