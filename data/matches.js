@@ -63,11 +63,12 @@ var matches = [
         pitch: "PW 3"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Away",
         date: "09/06/2015",
         opposition: "Colt 45s",
-        result: "",
+        result: "32 - 7",
+        mvp: "Kay Carter & Ian Mills",
         pitch: "PW 1"
     },
     {
@@ -103,10 +104,10 @@ var matches = [
         pitch: "TBA"
     },
     {
-        outcome: "RESTING",
-        place: "",
+        outcome: "FIXTURE",
+        place: "TBA",
         date: "14/07/2015",
-        opposition: "",
+        opposition: "TBA",
         result: "",
         pitch: ""
     },
