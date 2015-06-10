@@ -23,12 +23,12 @@ var players = [
         gender: "male",
         stats: {
             atBat: 21,
-            hits: 16,
+            hits: 17,
             walks: 3,
             runsBattedIn: 13,
             firstBase: 3,
             secondBase: 3,
-            thirdBase: 3,
+            thirdBase: 1,
             homeRuns: 7,
             struckOut: 1,
             mvp: 0
@@ -142,7 +142,7 @@ var players = [
         gender: "female",
         stats: {
             atBat: 18,
-            hits: 11,
+            hits: 14,
             walks: 4,
             runsBattedIn: 7,
             firstBase: 7,
