@@ -264,7 +264,7 @@ var players = [
             hits: 16,
             walks: 2,
             runsBattedIn: 14,
-            firstBase: 6,
+            firstBase: 8,
             secondBase: 3,
             thirdBase: 2,
             homeRuns: 1,
