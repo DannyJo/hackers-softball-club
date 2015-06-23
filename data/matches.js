@@ -72,11 +72,12 @@ var matches = [
         pitch: "PW 1"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "LOSS",
         place: "Home",
         date: "16/06/2015",
         opposition: "Mavericks II",
-        result: "",
+        result: "16 - 13",
+        mvp: "Kay Carter & Darren Corner",
         pitch: "PW 4"
     },
     {
@@ -93,7 +94,7 @@ var matches = [
         date: "30/06/2015",
         opposition: "Barflies",
         result: "",
-        pitch: "TBA"
+        pitch: "PW 7"
     },
     {
         outcome: "FIXTURE",
@@ -101,15 +102,15 @@ var matches = [
         date: "07/07/2015",
         opposition: "Freeze",
         result: "",
-        pitch: "TBA"
+        pitch: "PW 4"
     },
     {
         outcome: "FIXTURE",
-        place: "TBA",
+        place: "Home",
         date: "14/07/2015",
-        opposition: "TBA",
+        opposition: "Falcons",
         result: "",
-        pitch: ""
+        pitch: "PW 9"
     },
     {
         outcome: "FIXTURE",
@@ -117,7 +118,7 @@ var matches = [
         date: "21/07/2015",
         opposition: "Phoenix",
         result: "",
-        pitch: "TBA"
+        pitch: "PW 6"
     },
     {
         outcome: "FIXTURE",
@@ -125,7 +126,7 @@ var matches = [
         date: "28/07/2015",
         opposition: "Moorkats",
         result: "",
-        pitch: "TBA"
+        pitch: "PW 5"
     },
     {
         outcome: "FIXTURE",
@@ -133,7 +134,7 @@ var matches = [
         date: "04/08/2015",
         opposition: "Wildcats",
         result: "",
-        pitch: "TBA"
+        pitch: "PW 3"
     },
     {
         outcome: "FIXTURE",
