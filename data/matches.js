@@ -81,11 +81,12 @@ var matches = [
         pitch: "PW 4"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Away",
         date: "23/06/2015",
         opposition: "Drizzle",
-        result: "",
+        result: "40 - 10",
+        mvp: "Hollie Bees & Ian Radford",
         pitch: "PW 6"
     },
     {
