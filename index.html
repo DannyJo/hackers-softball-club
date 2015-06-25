@@ -68,8 +68,18 @@
                 };
 
                 $scope.isStatsCorrect = function(stats) {
-                    return stats.hits === (stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns + stats.walks);
-                }
+                    return stats && (stats.hits === (stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns + stats.walks));
+                };
+
+                $scope.sumOf = function(sumOf) {
+                    var sum = 0;
+
+                    for(var i = 0; i < $scope.players.length; i++) {
+                        sum += $scope.players[i].stats[sumOf];
+                    }
+
+                    return sum;
+                };
             });
         </script>
 
@@ -141,6 +151,25 @@
                                     <td class="text-center"><span ng-if="!isStatsCorrect(player.stats)" title="Hits does not match BB, 1B, 2B, 3B, HR" class="label label-danger">ERROR</span></td>
                                 </tr>
                                 </tbody>
+
+                                <tfoot>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="text-center"><strong>{{ sumOf('atBat') }}</strong></td>
+                                        <td class="text-center"><strong>{{ sumOf('hits') }}</strong></td>
+                                        <td class="text-center"><strong>{{ sumOf('walks') }}</strong></td>
+                                        <td class="text-center"><strong>{{ sumOf('runsBattedIn') }}</strong></td>
+                                        <td class="text-center warning"><strong>{{ sumOf('firstBase') }}</strong></td>
+                                        <td class="text-center warning"><strong>{{ sumOf('secondBase') }}</strong></td>
+                                        <td class="text-center warning"><strong>{{ sumOf('thirdBase') }}</strong></td>
+                                        <td class="text-center warning"><strong>{{ sumOf('homeRuns') }}</strong></td>
+                                        <td class="text-center"><strong>{{ sumOf('struckOut') }}</strong></td>
+                                        <td class="text-center"><strong>{{ sumOf('mvp') }}</strong></td>
+                                        <td class="text-center"><strong>{{ (sumOf('hits') / sumOf('atBat')) | number: 3 }}</strong></td>
+                                        <td class="text-center"></td>
+                                    </tr>
+                                </tfoot>
                             </table>
                         </div>
                     </div>
