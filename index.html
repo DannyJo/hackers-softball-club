@@ -46,9 +46,23 @@
                         return "label-info";
                     } else if (outcome === "POSTPONED") {
                         return "label-warning";
-                    } else {
-                        return "label-default";
                     }
+
+                    return "label-default";
+                };
+
+                $scope.getStyleForPlayerType = function(type) {
+                    if (type === 'RETIRED') {
+                        return "label-danger";
+                    } else if (type === 'GUEST') {
+                        return "label-warning";
+                    }
+
+                    return "label-default";
+                };
+
+                $scope.shouldShowPlayerType = function (type) {
+                    return type !== 'ROSTERED';
                 };
 
                 $scope.playerOrderByBattingAverage = function(player) {
@@ -136,7 +150,7 @@
                                 <tbody>
                                 <tr ng-repeat="player in players | orderBy : playerOrderBy : playerOrderByReversed | filter: guestFilter">
                                     <td class="text-center" title="{{ player.gender }}"><i class="fa fa-{{ player.gender }}"></i></td>
-                                    <td>{{ player.name }}</td>
+                                    <td>{{ player.name }} <span class="label" ng-if="shouldShowPlayerType(player.type)" ng-class="getStyleForPlayerType(player.type)">{{ player.type }}</span> </td>
                                     <td class="text-center">{{ player.stats.atBat }}</td>
                                     <td class="text-center">{{ player.stats.hits }}</td>
                                     <td class="text-center">{{ player.stats.walks }}</td>

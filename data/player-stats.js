@@ -172,7 +172,7 @@ var players = [
     },
     {
         name: "Suzi Wolfram",
-        type: "ROSTERED",
+        type: "RETIRED",
         gender: "female",
         stats: {
             atBat: 18,
