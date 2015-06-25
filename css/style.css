@@ -1,0 +1,13 @@
+body {
+    padding-top: 80px;
+}
+
+.header {
+    height: 90px;
+    padding: 5px;
+    color: #fff;
+}
+
+.header img {
+    margin-right: 15px;
+}
