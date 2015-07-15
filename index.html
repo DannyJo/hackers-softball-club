@@ -82,7 +82,7 @@
                 };
 
                 $scope.isStatsCorrect = function(stats) {
-                    return stats && (stats.hits === (stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns + stats.walks));
+                    return stats && (stats.hits === (stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns + stats.walks) && (stats.hits / stats.atBat <= 1.0));
                 };
 
                 $scope.sumOf = function(sumOf) {

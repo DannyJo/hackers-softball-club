@@ -99,19 +99,20 @@ var matches = [
         pitch: "PW 7"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "POSTPONED",
         place: "Away",
         date: "07/07/2015",
         opposition: "Freeze",
-        result: "",
+        result: "01/09/15",
         pitch: "PW 4"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Home",
         date: "14/07/2015",
         opposition: "Falcons",
-        result: "",
+        result: "4 - 19",
+        mvp: "Rachel Naylor & Andy Shaw",
         pitch: "PW 9"
     },
     {
