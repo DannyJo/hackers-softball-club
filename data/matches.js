@@ -145,7 +145,7 @@ var matches = [
         date: "11/08/2015",
         opposition: "Colt 45s",
         result: "",
-        pitch: "TBA"
+        pitch: ""
     },
     {
         outcome: "FIXTURE",
@@ -153,7 +153,7 @@ var matches = [
         date: "18/08/2015",
         opposition: "Mavericks II",
         result: "",
-        pitch: "TBA"
+        pitch: ""
     },
     {
         outcome: "FIXTURE",
@@ -161,6 +161,14 @@ var matches = [
         date: "25/08/2015",
         opposition: "Wildcats",
         result: "",
-        pitch: "TBA"
+        pitch: ""
+    },
+    {
+        outcome: "FIXTURE",
+        place: "Away",
+        date: "01/09/2015",
+        opposition: "Freeze",
+        result: "",
+        pitch: ""
     }
 ];
