@@ -116,11 +116,12 @@ var matches = [
         pitch: "PW 9"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "LOSS",
         place: "Home",
         date: "21/07/2015",
         opposition: "Phoenix",
-        result: "",
+        result: "17 - 11",
+        mvp: "Kay Carter & Dave Ogden",
         pitch: "PW 6"
     },
     {
