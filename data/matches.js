@@ -125,36 +125,40 @@ var matches = [
         pitch: "PW 6"
     },
     {
-        outcome: "FIXTURE",
-        place: "Away",
-        date: "28/07/2015",
-        opposition: "Moorkats",
-        result: "",
-        pitch: "PW 5"
-    },
-    {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Away",
         date: "04/08/2015",
         opposition: "Wildcats",
-        result: "",
-        pitch: "PW 3"
+        result: "28 - 2",
+        mvp: "Kay Carter & Darren Corner",
+        pitch: "PW 1"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "LOSS",
+        place: "Away",
+        date: "04/08/2015",
+        opposition: "Moorkats",
+        result: "11 - 16",
+        mvp: "Kay Carter & Darren Corner",
+        pitch: "PW 2"
+    },
+    {
+        outcome: "LOSS",
         place: "Home",
         date: "11/08/2015",
         opposition: "Colt 45s",
-        result: "",
-        pitch: ""
+        result: "13 - 16",
+        mvp: "Kay Carter & Darren Corner",
+        pitch: "PW 8"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "LOSS",
         place: "Away",
         date: "18/08/2015",
         opposition: "Mavericks II",
-        result: "",
-        pitch: ""
+        result: "14 - 18",
+        mvp: "Rachel Naylor & Ian Mills",
+        pitch: "PW 2"
     },
     {
         outcome: "FIXTURE",

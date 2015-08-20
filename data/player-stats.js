@@ -31,7 +31,7 @@ var players = [
             thirdBase: 1,
             homeRuns: 8,
             struckOut: 1,
-            mvp: 1
+            mvp: 4
         }
     },
     {
@@ -48,7 +48,7 @@ var players = [
             thirdBase: 5,
             homeRuns: 9,
             struckOut: 0,
-            mvp: 4
+            mvp: 5
         }
     },
     {
@@ -167,7 +167,7 @@ var players = [
             thirdBase: 1,
             homeRuns: 2,
             struckOut: 2,
-            mvp: 3
+            mvp: 6
         }
     },
     {
@@ -218,7 +218,7 @@ var players = [
             thirdBase: 1,
             homeRuns: 0,
             struckOut: 0,
-            mvp: 1
+            mvp: 2
         }
     },
     {
