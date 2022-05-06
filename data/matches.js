@@ -56,7 +56,7 @@ var matches = [
         pitch: "2"
     },
     {
-        outcome: "RESTING",
+        outcome: "TRAINING",
         place: "",
         date: "07/06/2022",
         opposition: "",
@@ -119,7 +119,7 @@ var matches = [
         pitch: "4"
     },
     {
-        outcome: "RESTING",
+        outcome: "TRAINING",
         place: "",
         date: "26/07/2022",
         opposition: "",
@@ -128,7 +128,7 @@ var matches = [
         pitch: ""
     },
     {
-        outcome: "RESTING",
+        outcome: "TRAINING",
         place: "",
         date: "02/08/2022",
         opposition: "",
