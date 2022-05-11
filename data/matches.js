@@ -1,4 +1,4 @@
-// Outcome must be one of "WIN", "LOSS" or "FIXTURE"
+// Outcome must be one of "WIN", "LOSS", "FIXTURE" or "TRAINING"
 
 var matches = [
     {
@@ -20,12 +20,12 @@ var matches = [
         pitch: "4"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Home",
         date: "10/05/2022",
         opposition: "Seagulls",
-        result: "",
-        mvp: "",
+        result: "8 - 23",
+        mvp: "Grace & Ian M",
         pitch: "8"
     },
     {
