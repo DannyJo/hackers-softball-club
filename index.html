@@ -281,6 +281,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
+                    <a class="d-lg-none" href="https://www.easyfundraising.org.uk/causes/hackerssoftballclub/" target="_blank"><img alt="easyfundraising" src="images/EF-Banner-560x90.png" width="100%"/></a>
+
                     <h2>Player Stats</h2>
 
                     <div class="row">
@@ -297,7 +299,9 @@
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                     <li><h6 class="dropdown-header">Columns</h6></li>
-                                    <li ng-repeat="column in columns" ng-if="column.hideable !== false"><a class="dropdown-item" href="#" ng-click="toggleColumn(column.field)"><i class="bi-check-lg" ng-class="columnVisible(column) ? 'text-success' : 'opacity-0'"></i> {{ column.heading }}</a></li>
+                                    <li ng-repeat="column in columns" ng-if="column.hideable !== false"><a class="dropdown-item" href="#" ng-click="toggleColumn(column.field)">
+                                        <i class="bi-check-lg" ng-class="columnVisible(column) ? 'text-success' : 'opacity-0'"></i> {{ column.heading }}</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -307,7 +311,9 @@
                         <table class="table table-borderless table-striped">
                             <thead>
                                 <tr>
-                                    <th ng-class="column.center ? 'text-center' : ''" ng-repeat="column in columns" title="{{ column.title }}" ng-show="columnVisible(column)"><a href="#" ng-click="orderPlayersBy(column.field)">{{ column.heading }}</a></th>
+                                    <th ng-class="column.center ? 'text-center' : ''" ng-repeat="column in columns" title="{{ column.title }}" ng-show="columnVisible(column)">
+                                        <a href="#" ng-click="orderPlayersBy(column.field)">{{ column.heading }}</a>
+                                    </th>
                                 </tr>
                             </thead>
 
@@ -367,11 +373,8 @@
                 </div>
                 <div class="col-xl-6 col-xs-12">
                     <h2>Pitch map</h2>
-                    <img src="images/Parrs-Wood-Pitch-Map-2016.jpg" width="100%"/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
+                    <img src="images/Parrs-Wood-Pitch-Map-2016.jpg" width="100%" class="mb-2" />
+                    <a href="https://www.easyfundraising.org.uk/causes/hackerssoftballclub/" target="_blank"><img alt="easyfundraising" src="images/EF-Banner-560x90.png" width="100%"/></a>
                 </div>
             </div>
         </div>

@@ -29,12 +29,12 @@ var matches = [
         pitch: "8"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "LOSS",
         place: "Away",
         date: "17/05/2022",
         opposition: "Bats",
-        result: "",
-        mvp: "",
+        result: "10 - 17",
+        mvp: "Grace & ???",
         pitch: "3"
     },
     {
