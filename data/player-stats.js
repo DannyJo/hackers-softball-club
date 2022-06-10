@@ -81,7 +81,7 @@ var players = [
             thirdBase: 1,
             homeRuns: 2,
             struckOut: 0,
-            mvp: 1
+            mvp: 2
         }
     },
     {

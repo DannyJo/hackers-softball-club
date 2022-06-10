@@ -34,7 +34,7 @@ var matches = [
         date: "17/05/2022",
         opposition: "Bats",
         result: "10 - 17",
-        mvp: "Grace & ???",
+        mvp: "Grace & Ian M",
         pitch: "3"
     },
     {
