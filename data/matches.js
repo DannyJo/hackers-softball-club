@@ -47,12 +47,12 @@ var matches = [
         pitch: "6"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Away",
         date: "31/05/2022",
         opposition: "Enforcers",
-        result: "",
-        mvp: "",
+        result: "13 - 9",
+        mvp: "Ella & Joe",
         pitch: "2"
     },
     {

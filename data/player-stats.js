@@ -21,12 +21,12 @@ var players = [
         type: "ROSTERED",
         gender: "male",
         stats: {
-            atBat: 20,
-            hits: 14,
+            atBat: 24,
+            hits: 15,
             walks: 4,
             runsBattedIn: 7,
             firstBase: 1,
-            secondBase: 5,
+            secondBase: 6,
             thirdBase: 3,
             homeRuns: 1,
             struckOut: 0,
@@ -38,13 +38,13 @@ var players = [
         type: "ROSTERED",
         gender: "female",
         stats: {
-            atBat: 19,
-            hits: 15,
-            walks: 3,
-            runsBattedIn: 5,
-            firstBase: 9,
+            atBat: 24,
+            hits: 19,
+            walks: 4,
+            runsBattedIn: 7,
+            firstBase: 11,
             secondBase: 3,
-            thirdBase: 0,
+            thirdBase: 1,
             homeRuns: 0,
             struckOut: 0,
             mvp: 2
@@ -72,13 +72,13 @@ var players = [
         type: "ROSTERED",
         gender: "male",
         stats: {
-            atBat: 22,
-            hits: 18,
-            walks: 0,
+            atBat: 26,
+            hits: 22,
+            walks: 1,
             runsBattedIn: 16,
-            firstBase: 10,
+            firstBase: 12,
             secondBase: 3,
-            thirdBase: 2,
+            thirdBase: 3,
             homeRuns: 3,
             struckOut: 0,
             mvp: 3
@@ -89,16 +89,16 @@ var players = [
         type: "ROSTERED",
         gender: "female",
         stats: {
-            atBat: 23,
-            hits: 15,
+            atBat: 28,
+            hits: 16,
             walks: 1,
             runsBattedIn: 6,
-            firstBase: 10,
+            firstBase: 11,
             secondBase: 4,
             thirdBase: 0,
             homeRuns: 0,
             struckOut: 1,
-            mvp: 3
+            mvp: 4
         }
     },
     {
@@ -140,12 +140,12 @@ var players = [
         type: "ROSTERED",
         gender: "male",
         stats: {
-            atBat: 20,
-            hits: 10,
+            atBat: 25,
+            hits: 13,
             walks: 1,
-            runsBattedIn: 12,
-            firstBase: 3,
-            secondBase: 4,
+            runsBattedIn: 14,
+            firstBase: 5,
+            secondBase: 5,
             thirdBase: 1,
             homeRuns: 1,
             struckOut: 0,
@@ -157,11 +157,11 @@ var players = [
         type: "ROSTERED",
         gender: "female",
         stats: {
-            atBat: 4,
-            hits: 2,
+            atBat: 9,
+            hits: 4,
             walks: 0,
             runsBattedIn: 0,
-            firstBase: 1,
+            firstBase: 3,
             secondBase: 1,
             thirdBase: 0,
             homeRuns: 0,
@@ -184,6 +184,23 @@ var players = [
             homeRuns: 0,
             struckOut: 2,
             mvp: 0
+        }
+    },
+    {
+        name: "Joe",
+        type: "ROSTERED",
+        gender: "male",
+        stats: {
+            atBat: 5,
+            hits: 3,
+            walks: 0,
+            runsBattedIn: 3,
+            firstBase: 1,
+            secondBase: 1,
+            thirdBase: 0,
+            homeRuns: 1,
+            struckOut: 0,
+            mvp: 1
         }
     },
     {
@@ -221,15 +238,32 @@ var players = [
         }
     },
     {
+        name: "Jack",
+        type: "ROSTERED",
+        gender: "male",
+        stats: {
+            atBat: 4,
+            hits: 3,
+            walks: 0,
+            runsBattedIn: 4,
+            firstBase: 2,
+            secondBase: 1,
+            thirdBase: 0,
+            homeRuns: 0,
+            struckOut: 0,
+            mvp: 0
+        }
+    },
+    {
         name: "Annie",
         type: "GUEST",
         gender: "female",
         stats: {
-            atBat: 4,
-            hits: 1,
-            walks: 0,
-            runsBattedIn: 0,
-            firstBase: 1,
+            atBat: 8,
+            hits: 4,
+            walks: 1,
+            runsBattedIn: 1,
+            firstBase: 3,
             secondBase: 0,
             thirdBase: 0,
             homeRuns: 0,
@@ -283,6 +317,23 @@ var players = [
             firstBase: 2,
             secondBase: 1,
             thirdBase: 0,
+            homeRuns: 0,
+            struckOut: 0,
+            mvp: 0
+        }
+    },
+    {
+        name: "Bailey",
+        type: "GUEST",
+        gender: "female",
+        stats: {
+            atBat: 4,
+            hits: 2,
+            walks: 0,
+            runsBattedIn: 1,
+            firstBase: 0,
+            secondBase: 1,
+            thirdBase: 1,
             homeRuns: 0,
             struckOut: 0,
             mvp: 0
