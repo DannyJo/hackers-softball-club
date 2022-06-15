@@ -340,7 +340,7 @@ var players = [
         }
     },
     {
-        name: "Bailey",
+        name: "Bailey (TIG)",
         type: "GUEST",
         gender: "female",
         stats: {
