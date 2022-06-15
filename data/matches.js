@@ -65,12 +65,12 @@ var matches = [
         pitch: ""
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Away",
         date: "14/06/2022",
         opposition: "Thunder III",
-        result: "",
-        mvp: "",
+        result: "27 - 4",
+        mvp: "Emma & Daniel",
         pitch: "4"
     },
     {
