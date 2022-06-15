@@ -357,8 +357,8 @@ var players = [
         }
     },
     {
-        name: "Lisa",
-        type: "GUEST (ENF)",
+        name: "Lisa (ENF)",
+        type: "GUEST",
         gender: "female",
         stats: {
             atBat: 5,
