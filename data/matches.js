@@ -74,12 +74,12 @@ var matches = [
         pitch: "4"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Home",
         date: "21/06/2022",
         opposition: "Stingers",
-        result: "",
-        mvp: "",
+        result: "23 - 24",
+        mvp: "Grace & Harry",
         pitch: "8"
     },
     {
