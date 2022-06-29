@@ -83,12 +83,12 @@ var matches = [
         pitch: "8"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "WIN",
         place: "Away",
         date: "28/06/2022",
         opposition: "Seagulls",
-        result: "",
-        mvp: "",
+        result: "24 - 2",
+        mvp: "Grace & Daniel",
         pitch: "4"
     },
     {
