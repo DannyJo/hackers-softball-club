@@ -110,7 +110,7 @@ var matches = [
         pitch: "3"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "POSTPONED",
         place: "Home",
         date: "19/07/2022",
         opposition: "Enforcers",
@@ -119,13 +119,13 @@ var matches = [
         pitch: "4"
     },
     {
-        outcome: "TRAINING",
-        place: "",
+        outcome: "WIN",
+        place: "Home",
         date: "26/07/2022",
-        opposition: "",
-        result: "",
-        mvp: "",
-        pitch: ""
+        opposition: "Enforcers",
+        result: "5 - 11",
+        mvp: "Grace & Ian M",
+        pitch: "6"
     },
     {
         outcome: "TRAINING",
