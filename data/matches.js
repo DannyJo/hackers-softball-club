@@ -101,12 +101,12 @@ var matches = [
         pitch: "8"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "LOSS",
         place: "Away",
         date: "12/07/2022",
         opposition: "Freeze",
-        result: "",
-        mvp: "",
+        result: "10 - 23",
+        mvp: "Rachel & George",
         pitch: "3"
     },
     {
