@@ -137,13 +137,13 @@ var matches = [
         pitch: ""
     },
     {
-        outcome: "FIXTURE",
-        place: "",
+        outcome: "WIN",
+        place: "Away",
         date: "09/08/2022",
-        opposition: "",
-        result: "",
-        mvp: "",
-        pitch: ""
+        opposition: "Stingers",
+        result: "33 - 7",
+        mvp: "Ella & Darren",
+        pitch: "7"
     },
     {
         outcome: "FIXTURE",
