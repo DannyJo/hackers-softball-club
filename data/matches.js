@@ -147,12 +147,12 @@ var matches = [
     },
     {
         outcome: "FIXTURE",
-        place: "",
+        place: "Away",
         date: "16/08/2022",
-        opposition: "",
-        result: "",
-        mvp: "",
-        pitch: ""
+        opposition: "Freeze",
+        result: "27 - 29",
+        mvp: "Grace & Pete",
+        pitch: "4"
     },
     {
         outcome: "FIXTURE",
