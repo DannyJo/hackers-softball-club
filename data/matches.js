@@ -146,7 +146,7 @@ var matches = [
         pitch: "7"
     },
     {
-        outcome: "FIXTURE",
+        outcome: "LOSS",
         place: "Away",
         date: "16/08/2022",
         opposition: "Freeze",
@@ -155,12 +155,12 @@ var matches = [
         pitch: "4"
     },
     {
-        outcome: "FIXTURE",
-        place: "",
+        outcome: "LOSS",
+        place: "Home",
         date: "23/08/2022",
-        opposition: "",
-        result: "",
-        mvp: "",
-        pitch: ""
+        opposition: "Bats",
+        result: "19 - 9",
+        mvp: "Rachel & Jack",
+        pitch: "7"
     },
 ];
