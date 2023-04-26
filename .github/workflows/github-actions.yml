@@ -18,11 +18,9 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - name: Archive dist
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
           path: dist
-          if-no-files-found: error
   deploy:
     needs: build
     permissions:
