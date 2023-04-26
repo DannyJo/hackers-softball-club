@@ -20,7 +20,7 @@
         <td>{{ match.opposition }}</td>
         <td>{{ match.pitch }}</td>
         <td>{{ match.mvp }}</td>
-        <td>{{ match.result }}</td>
+        <td class="text-no-wrap">{{ match.result }}</td>
       </tr>
     </tbody>
   </v-table>

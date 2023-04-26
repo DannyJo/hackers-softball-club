@@ -21,7 +21,7 @@
   <v-table density="compact" hover>
     <thead>
       <tr>
-        <th @click="sortBy('name')" class="text-primary">Player <v-icon size="1em" :icon="getSortIcon('name')" /></th>
+        <th @click="sortBy('name')" class="text-primary bg-white" style="position: sticky; top: 0; left: 0; z-index: 2">Player <v-icon size="1em" :icon="getSortIcon('name')" /></th>
         <th v-show="tableState.columns['AB']" @click="sortBy('atBat')" class="text-primary text-center">AB <v-icon size="1em" :icon="getSortIcon('atBat')" /></th>
         <th v-show="tableState.columns['H']" @click="sortBy('hits')" class="text-primary text-center">H <v-icon size="1em" :icon="getSortIcon('hits')" /></th>
         <th v-show="tableState.columns['BB']" @click="sortBy('walks')" class="text-primary text-center">BB <v-icon size="1em" :icon="getSortIcon('walks')" /></th>
@@ -37,7 +37,7 @@
     </thead>
     <tbody>
       <tr v-for="player in playerStats">
-        <td>{{ player.name }}</td>
+        <td class="bg-white text-no-wrap" style="border-right: 1px solid lightgray; position: sticky; top: 0; left: 0; z-index: 2">{{ player.name }}</td>
         <td v-show="tableState.columns['AB']" class="text-center">{{ player.stats.atBat }} <v-icon size="1em" icon="" /></td>
         <td v-show="tableState.columns['H']" class="text-center">{{ player.stats.hits }} <v-icon size="1em" icon="" /></td>
         <td v-show="tableState.columns['BB']" class="text-center">{{ player.stats.walks }} <v-icon size="1em" icon="" /></td>
