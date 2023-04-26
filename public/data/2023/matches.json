@@ -1,0 +1,164 @@
+[
+  {
+    "outcome": "RESTING",
+    "place": "",
+    "date": "2023-04-26",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": ""
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2023-05-03",
+    "opposition": "Manchester Dodgers",
+    "result": "",
+    "mvp": "",
+    "pitch": "H"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2023-05-10",
+    "opposition": "Camels II",
+    "result": "",
+    "mvp": "",
+    "pitch": "A"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2023-05-17",
+    "opposition": "Didsbury Bats",
+    "result": "",
+    "mvp": "",
+    "pitch": "G"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2023-05-24",
+    "opposition": "Manchester Mavericks II",
+    "result": "",
+    "mvp": "",
+    "pitch": "B"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2023-05-31",
+    "opposition": "Mayhem Freeze",
+    "result": "",
+    "mvp": "",
+    "pitch": "F"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2023-06-07",
+    "opposition": "Manchester Thunder II",
+    "result": "",
+    "mvp": "",
+    "pitch": "D"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2023-06-14",
+    "opposition": "Titans",
+    "result": "",
+    "mvp": "",
+    "pitch": "A"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2023-06-21",
+    "opposition": "Tigers",
+    "result": "",
+    "mvp": "",
+    "pitch": "E"
+  },
+  {
+    "outcome": "RESTING",
+    "place": "",
+    "date": "2023-06-28",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": ""
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2023-07-05",
+    "opposition": "Manchester Dodgers",
+    "result": "",
+    "mvp": "",
+    "pitch": "D"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2023-07-12",
+    "opposition": "Camels II",
+    "result": "",
+    "mvp": "",
+    "pitch": "E"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2023-07-19",
+    "opposition": "Didsbury Bats",
+    "result": "",
+    "mvp": "",
+    "pitch": "C"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2023-07-26",
+    "opposition": "Manchester Mavericks II",
+    "result": "",
+    "mvp": "",
+    "pitch": "H"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2023-08-02",
+    "opposition": "Mayhem Freeze",
+    "result": "",
+    "mvp": "",
+    "pitch": "B"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2023-08-09",
+    "opposition": "Manchester Thunder II",
+    "result": "",
+    "mvp": "",
+    "pitch": "F"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2023-08-16",
+    "opposition": "Titans",
+    "result": "",
+    "mvp": "",
+    "pitch": "F"
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2023-08-23",
+    "opposition": "Tigers",
+    "result": "",
+    "mvp": "",
+    "pitch": "D"
+  }
+]
