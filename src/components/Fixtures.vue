@@ -3,7 +3,6 @@
   <v-table density="compact">
     <thead>
       <tr>
-        <th>Outcome</th>
         <th>Date</th>
         <th>Home/Away</th>
         <th>Opposition</th>
@@ -14,8 +13,7 @@
     </thead>
     <tbody>
       <tr v-for="match in matchData">
-        <td><v-chip density="compact" :color="getOutcomeColor(match.outcome)" rounded="0" class="text-capitalize">{{ match.outcome.toLowerCase() }}</v-chip></td>
-        <td class="text-no-wrap">{{ match.date }}</td>
+        <td :class="match.outcome.toLowerCase()" class="text-no-wrap">{{ match.date }}</td>
         <td class="text-capitalize">{{ match.place.toLowerCase() }}</td>
         <td>{{ match.opposition }}</td>
         <td>{{ match.pitch }}</td>
@@ -36,21 +34,27 @@ const getData = async function(season) {
   matchData.value = await res.json();
 }
 
-const getOutcomeColor = function(outcome) {
-  if (outcome === 'WIN') {
-    return 'success';
-  } else if (outcome === 'LOSS') {
-    return 'error';
-  } else if (outcome === 'RESTING') {
-    return 'info';
-  }
-
-  return '';
-}
-
 watch(() => props.season, async newSeason => {
   await getData(newSeason);
 });
 
 getData(props.season);
 </script>
+
+<style scoped>
+  .win {
+    border-left: 7px solid #a5d6a7;
+  }
+
+  .loss {
+    border-left: 7px solid #ff7d7d;
+  }
+
+  .resting {
+    border-left: 7px solid #90caf9;
+  }
+
+  .fixture {
+    border-left: 7px solid #c7c7c7;
+  }
+</style>

@@ -9,76 +9,84 @@
     "pitch": ""
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "HOME",
     "date": "2023-05-03",
     "opposition": "Manchester Dodgers",
-    "result": "",
-    "mvp": "",
-    "pitch": "H"
+    "result": "32 - 10",
+    "mvp": "Grace & Darren",
+    "pitch": "H",
+    "stats":  false
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2023-05-10",
     "opposition": "Camels II",
-    "result": "",
+    "result": "12 - 19",
     "mvp": "",
-    "pitch": "A"
+    "pitch": "A",
+    "stats":  false
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2023-05-17",
     "opposition": "Didsbury Bats",
-    "result": "",
+    "result": "9 - 18",
     "mvp": "",
-    "pitch": "G"
+    "pitch": "G",
+    "stats":  false
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "HOME",
     "date": "2023-05-24",
     "opposition": "Manchester Mavericks II",
-    "result": "",
+    "result": "19 - 17",
     "mvp": "",
-    "pitch": "B"
+    "pitch": "B",
+    "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "AWAY",
     "date": "2023-05-31",
     "opposition": "Mayhem Freeze",
-    "result": "",
-    "mvp": "",
-    "pitch": "F"
+    "result": "49 - 25",
+    "mvp": "Grace & Harry",
+    "pitch": "F",
+    "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "HOME",
     "date": "2023-06-07",
     "opposition": "Manchester Thunder II",
-    "result": "",
-    "mvp": "",
-    "pitch": "D"
+    "result": "26 - 8",
+    "mvp": "Grace & Jack",
+    "pitch": "D",
+    "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2023-06-14",
     "opposition": "Titans",
-    "result": "",
-    "mvp": "",
-    "pitch": "A"
+    "result": "9 - 24",
+    "mvp": "Grace & Jack",
+    "pitch": "A",
+    "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "HOME",
     "date": "2023-06-21",
     "opposition": "Tigers",
-    "result": "",
-    "mvp": "",
-    "pitch": "E"
+    "result": "21 - 6",
+    "mvp": "Grace & Ian M",
+    "pitch": "E",
+    "stats":  true
   },
   {
     "outcome": "RESTING",
@@ -90,58 +98,64 @@
     "pitch": ""
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2023-07-05",
     "opposition": "Manchester Dodgers",
-    "result": "",
-    "mvp": "",
-    "pitch": "D"
+    "result": "5 - 13",
+    "mvp": "Ella & Alex",
+    "pitch": "D",
+    "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "HOME",
     "date": "2023-07-12",
     "opposition": "Camels II",
-    "result": "",
+    "result": "21 - 3",
     "mvp": "",
-    "pitch": "E"
+    "pitch": "E",
+    "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "HOME",
     "date": "2023-07-19",
     "opposition": "Didsbury Bats",
-    "result": "",
+    "result": "21 - 1",
     "mvp": "",
-    "pitch": "C"
+    "pitch": "C",
+    "stats":  false
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2023-07-26",
     "opposition": "Manchester Mavericks II",
-    "result": "",
+    "result": "1 - 16",
     "mvp": "",
-    "pitch": "H"
+    "pitch": "H",
+    "stats":  false
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "HOME",
     "date": "2023-08-02",
     "opposition": "Mayhem Freeze",
-    "result": "",
+    "result": "12 - 16",
     "mvp": "",
-    "pitch": "B"
+    "pitch": "B",
+    "stats":  false
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2023-08-09",
     "opposition": "Manchester Thunder II",
-    "result": "",
+    "result": "8 - 12",
     "mvp": "",
-    "pitch": "F"
+    "pitch": "F",
+    "stats":  false
   },
   {
     "outcome": "FIXTURE",
@@ -150,7 +164,8 @@
     "opposition": "Titans",
     "result": "",
     "mvp": "",
-    "pitch": "F"
+    "pitch": "F",
+    "stats":  false
   },
   {
     "outcome": "FIXTURE",
@@ -159,6 +174,7 @@
     "opposition": "Tigers",
     "result": "",
     "mvp": "",
-    "pitch": "D"
+    "pitch": "D",
+    "stats":  false
   }
 ]

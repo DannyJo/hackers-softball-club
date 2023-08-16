@@ -4,12 +4,12 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
-      "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
-      "secondBase": 0,
+      "atBat": 23,
+      "hits": 11,
+      "walks": 2,
+      "runsBattedIn": 4,
+      "firstBase": 9,
+      "secondBase": 2,
       "thirdBase": 0,
       "homeRuns": 0,
       "struckOut": 0,
@@ -21,14 +21,14 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
+      "atBat": 20,
+      "hits": 14,
       "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
-      "secondBase": 0,
-      "thirdBase": 0,
-      "homeRuns": 0,
+      "runsBattedIn": 13,
+      "firstBase": 3,
+      "secondBase": 7,
+      "thirdBase": 2,
+      "homeRuns": 2,
       "struckOut": 0,
       "mvp": 0
     }
@@ -55,16 +55,16 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
-      "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
-      "secondBase": 0,
-      "thirdBase": 0,
-      "homeRuns": 0,
+      "atBat": 17,
+      "hits": 9,
+      "walks": 1,
+      "runsBattedIn": 7,
+      "firstBase": 2,
+      "secondBase": 4,
+      "thirdBase": 1,
+      "homeRuns": 2,
       "struckOut": 0,
-      "mvp": 0
+      "mvp": 1
     }
   },
   {
@@ -72,16 +72,16 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
+      "atBat": 19,
+      "hits": 10,
       "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
-      "secondBase": 0,
+      "runsBattedIn": 3,
+      "firstBase": 9,
+      "secondBase": 1,
       "thirdBase": 0,
       "homeRuns": 0,
       "struckOut": 0,
-      "mvp": 0
+      "mvp": 1
     }
   },
   {
@@ -89,11 +89,11 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
-      "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
+      "atBat": 20,
+      "hits": 5,
+      "walks": 2,
+      "runsBattedIn": 3,
+      "firstBase": 5,
       "secondBase": 0,
       "thirdBase": 0,
       "homeRuns": 0,
@@ -106,16 +106,16 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
+      "atBat": 26,
+      "hits": 14,
       "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
-      "secondBase": 0,
+      "runsBattedIn": 12,
+      "firstBase": 7,
+      "secondBase": 2,
       "thirdBase": 0,
-      "homeRuns": 0,
+      "homeRuns": 5,
       "struckOut": 0,
-      "mvp": 0
+      "mvp": 5
     }
   },
   {
@@ -123,11 +123,11 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
+      "atBat": 8,
+      "hits": 2,
       "walks": 0,
       "runsBattedIn": 0,
-      "firstBase": 0,
+      "firstBase": 2,
       "secondBase": 0,
       "thirdBase": 0,
       "homeRuns": 0,
@@ -140,16 +140,16 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
-      "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
-      "secondBase": 0,
+      "atBat": 22,
+      "hits": 12,
+      "walks": 2,
+      "runsBattedIn": 10,
+      "firstBase": 6,
+      "secondBase": 2,
       "thirdBase": 0,
-      "homeRuns": 0,
+      "homeRuns": 4,
       "struckOut": 0,
-      "mvp": 0
+      "mvp": 1
     }
   },
   {
@@ -157,16 +157,16 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
-      "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
-      "secondBase": 0,
-      "thirdBase": 0,
+      "atBat": 22,
+      "hits": 17,
+      "walks": 2,
+      "runsBattedIn": 12,
+      "firstBase": 5,
+      "secondBase": 11,
+      "thirdBase": 1,
       "homeRuns": 0,
       "struckOut": 0,
-      "mvp": 0
+      "mvp": 1
     }
   },
   {
@@ -191,16 +191,16 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
-      "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
-      "secondBase": 0,
+      "atBat": 23,
+      "hits": 14,
+      "walks": 1,
+      "runsBattedIn": 5,
+      "firstBase": 10,
+      "secondBase": 4,
       "thirdBase": 0,
       "homeRuns": 0,
       "struckOut": 0,
-      "mvp": 0
+      "mvp": 2
     }
   },
   {
@@ -208,11 +208,11 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
+      "atBat": 5,
+      "hits": 2,
       "walks": 0,
       "runsBattedIn": 0,
-      "firstBase": 0,
+      "firstBase": 2,
       "secondBase": 0,
       "thirdBase": 0,
       "homeRuns": 0,
@@ -225,12 +225,12 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
-      "walks": 0,
-      "runsBattedIn": 0,
-      "firstBase": 0,
-      "secondBase": 0,
+      "atBat": 13,
+      "hits": 7,
+      "walks": 1,
+      "runsBattedIn": 2,
+      "firstBase": 3,
+      "secondBase": 4,
       "thirdBase": 0,
       "homeRuns": 0,
       "struckOut": 0,
@@ -242,12 +242,80 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 0,
-      "hits": 0,
+      "atBat": 14,
+      "hits": 9,
       "walks": 0,
+      "runsBattedIn": 3,
+      "firstBase": 5,
+      "secondBase": 2,
+      "thirdBase": 0,
+      "homeRuns": 2,
+      "struckOut": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Frances",
+    "team": "Hackers",
+    "gender": "female",
+    "stats": {
+      "atBat": 5,
+      "hits": 1,
+      "walks": 1,
       "runsBattedIn": 0,
       "firstBase": 0,
+      "secondBase": 1,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Lisa W",
+    "team": "Enforcers",
+    "gender": "female",
+    "stats": {
+      "atBat": 5,
+      "hits": 3,
+      "walks": 0,
+      "runsBattedIn": 3,
+      "firstBase": 3,
       "secondBase": 0,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Chloe",
+    "team": "?",
+    "gender": "female",
+    "stats": {
+      "atBat": 7,
+      "hits": 1,
+      "walks": 0,
+      "runsBattedIn": 0,
+      "firstBase": 1,
+      "secondBase": 0,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Jay",
+    "team": "?",
+    "gender": "male",
+    "stats": {
+      "atBat": 2,
+      "hits": 2,
+      "walks": 0,
+      "runsBattedIn": 0,
+      "firstBase": 1,
+      "secondBase": 1,
       "thirdBase": 0,
       "homeRuns": 0,
       "struckOut": 0,

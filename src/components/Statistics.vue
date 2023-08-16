@@ -8,7 +8,7 @@
     </template>
     <v-list density="compact">
       <v-list-subheader>Visible Columns</v-list-subheader>
-      <v-list-item v-for="(item, column) in tableState.columns" :value="column" @click="tableState.columns[column] = !tableState.columns[column]" :active="tableState.columns[column]">
+      <v-list-item v-for="(_, column) in tableState.columns" :value="column" @click="tableState.columns[column] = !tableState.columns[column]" :active="tableState.columns[column]">
         <template v-slot:prepend="{ isActive }">
           <v-list-item-action start>
             <v-icon :icon="isActive ? 'mdi-check' : ''"/>
@@ -36,8 +36,8 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="player in playerStats">
-        <td class="bg-white text-no-wrap" style="border-right: 1px solid lightgray; position: sticky; top: 0; left: 0; z-index: 2">{{ player.name }}</td>
+      <tr v-for="player in playerStats" :class="{'bg-warning': erroneousData(player.stats)}">
+        <td class="bg-white text-no-wrap" style="border-right: 1px solid lightgray; position: sticky; top: 0; left: 0; z-index: 2">{{ getPlayerName(player) }}</td>
         <td v-show="tableState.columns['AB']" class="text-center">{{ player.stats.atBat }} <v-icon size="1em" icon="" /></td>
         <td v-show="tableState.columns['H']" class="text-center">{{ player.stats.hits }} <v-icon size="1em" icon="" /></td>
         <td v-show="tableState.columns['BB']" class="text-center">{{ player.stats.walks }} <v-icon size="1em" icon="" /></td>
@@ -49,6 +49,7 @@
         <td v-show="tableState.columns['K']" class="text-center">{{ player.stats.struckOut }} <v-icon size="1em" icon="" /></td>
         <td v-show="tableState.columns['MVP']" class="text-center">{{ player.stats.mvp }} <v-icon size="1em" icon="" /></td>
         <td v-show="tableState.columns['AVG']" class="text-center">{{ player.stats.avg }} <v-icon size="1em" icon="" /></td>
+        <th v-show="erroneousData(player.stats)" class="text-error text-center">ERROR</th>
       </tr>
     </tbody>
   </v-table>
@@ -64,6 +65,10 @@ const playerData = ref([]);
 const getData = async function(season) {
   const res = await fetch("/data/" + season + "/players.json");
   playerData.value = await res.json();
+}
+
+const erroneousData = function(stats) {
+  return stats.hits !== (stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns);
 }
 
 const tableState = reactive({
@@ -92,6 +97,10 @@ const sortBy = function(field) {
   }
 
   tableState.sortBy = field;
+}
+
+const getPlayerName = function(player) {
+  return player.team === 'Hackers' ? player.name : player.name + ' (' + player.team + ')';
 }
 
 const getSortIcon = function(field) {
