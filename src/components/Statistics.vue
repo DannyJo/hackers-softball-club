@@ -33,9 +33,6 @@
       <th v-show="tableState.columns['BB']" @click="sortBy('walks')" class="text-primary text-center">BB
         <v-icon size="1em" :icon="getSortIcon('walks')"/>
       </th>
-      <th v-show="tableState.columns['RBI']" @click="sortBy('runsBattedIn')" class="text-primary text-center">RBI
-        <v-icon size="1em" :icon="getSortIcon('runsBattedIn')"/>
-      </th>
       <th v-show="tableState.columns['1B']" @click="sortBy('firstBase')" class="text-primary text-center">1B
         <v-icon size="1em" :icon="getSortIcon('firstBase')"/>
       </th>
@@ -47,6 +44,9 @@
       </th>
       <th v-show="tableState.columns['HR']" @click="sortBy('homeRuns')" class="text-primary text-center">HR
         <v-icon size="1em" :icon="getSortIcon('homeRuns')"/>
+      </th>
+      <th v-show="tableState.columns['RBI']" @click="sortBy('runsBattedIn')" class="text-primary text-center">RBI
+        <v-icon size="1em" :icon="getSortIcon('runsBattedIn')"/>
       </th>
       <th v-show="tableState.columns['C']" @click="sortBy('catches')" class="text-primary text-center">C
         <v-icon size="1em" :icon="getSortIcon('catches')"/>
@@ -68,10 +68,7 @@
       <td v-show="tableState.columns['H']" class="text-center">{{ player.stats.hits }}
         <v-icon size="1em" icon=""/>
       </td>
-      <td v-show="tableState.columns['BB']" class="text-center">{{ player.stats.walks }}
-        <v-icon size="1em" icon=""/>
-      </td>
-      <td v-show="tableState.columns['RBI']" class="text-center">{{ player.stats.runsBattedIn }}
+      <td v-show="tableState.columns['BB']" class="text-center bg-yellow-lighten-4">{{ player.stats.walks }}
         <v-icon size="1em" icon=""/>
       </td>
       <td v-show="tableState.columns['1B']" class="text-center bg-yellow-lighten-4">{{ player.stats.firstBase }}
@@ -86,10 +83,13 @@
       <td v-show="tableState.columns['HR']" class="text-center bg-yellow-lighten-4">{{ player.stats.homeRuns }}
         <v-icon size="1em" icon=""/>
       </td>
-      <td v-show="tableState.columns['C']" class="text-center">{{ player.stats.catches }}
+      <td v-show="tableState.columns['RBI']" class="text-center">{{ player.stats.runsBattedIn }}
         <v-icon size="1em" icon=""/>
       </td>
-      <td v-show="tableState.columns['MVP']" class="text-center">{{ player.stats.mvp }}
+      <td v-show="tableState.columns['C']" class="text-center">{{ player.stats.catches || '-' }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['MVP']" class="text-center">{{ player.stats.mvp || '-' }}
         <v-icon size="1em" icon=""/>
       </td>
       <td v-show="tableState.columns['AVG']" class="text-center">{{ player.stats.avg }}
@@ -124,11 +124,11 @@ const tableState = reactive({
     AB: true,
     H: true,
     BB: true,
-    RBI: true,
     '1B': true,
     '2B': true,
     '3B': true,
     HR: true,
+    RBI: true,
     C: true,
     MVP: true,
     AVG: true
@@ -163,11 +163,14 @@ const getSortIcon = function (field) {
 
 const playerStats = computed(() => {
   return [...playerData.value].map(value => {
+    const hits = value.stats.walks + value.stats.firstBase + value.stats.secondBase + value.stats.thirdBase + value.stats.homeRuns;
+
     return {
       ...value,
       stats: {
         ...value.stats,
-        avg: value.stats.atBat === 0 ? 0 : (value.stats.hits / value.stats.atBat).toFixed(3)
+        hits,
+        avg: value.stats.atBat === 0 ? 0 : (hits / value.stats.atBat).toFixed(3)
       }
     }
   }).sort((p1, p2) => {

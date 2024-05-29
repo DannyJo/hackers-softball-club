@@ -5,14 +5,12 @@
     "gender": "female",
     "stats": {
       "atBat": 18,
-      "hits": 9,
       "walks": 0,
       "runsBattedIn": 8,
       "firstBase": 6,
       "secondBase": 3,
       "thirdBase": 0,
       "homeRuns": 0,
-      "struckOut": 0,
       "catches": 0,
       "mvp": 0
     }
@@ -23,14 +21,12 @@
     "gender": "male",
     "stats": {
       "atBat": 9,
-      "hits": 8,
       "walks": 0,
       "runsBattedIn": 5,
       "firstBase": 3,
       "secondBase": 4,
       "thirdBase": 1,
       "homeRuns": 0,
-      "struckOut": 0,
       "catches": 2,
       "mvp": 2
     }
@@ -41,14 +37,12 @@
     "gender": "male",
     "stats": {
       "atBat": 13,
-      "hits": 11,
       "walks": 1,
       "runsBattedIn": 7,
       "firstBase": 3,
       "secondBase": 6,
       "thirdBase": 1,
       "homeRuns": 0,
-      "struckOut": 0,
       "catches": 0,
       "mvp": 0
     }
@@ -59,14 +53,12 @@
     "gender": "male",
     "stats": {
       "atBat": 13,
-      "hits": 9,
       "walks": 1,
       "runsBattedIn": 6,
       "firstBase": 4,
       "secondBase": 3,
       "thirdBase": 1,
       "homeRuns": 0,
-      "struckOut": 0,
       "catches": 1,
       "mvp": 0
     }
@@ -77,14 +69,12 @@
     "gender": "female",
     "stats": {
       "atBat": 13,
-      "hits": 11,
       "walks": 0,
       "runsBattedIn": 5,
       "firstBase": 9,
       "secondBase": 2,
       "thirdBase": 0,
       "homeRuns": 0,
-      "struckOut": 0,
       "catches": 1,
       "mvp": 3
     }
@@ -95,14 +85,13 @@
     "gender": "female",
     "stats": {
       "atBat": 14,
-      "hits": 5,
       "walks": 1,
       "runsBattedIn": 3,
       "firstBase": 2,
       "secondBase": 2,
       "thirdBase": 0,
       "homeRuns": 0,
-      "struckOut": 0,
+      "catches": 0,
       "mvp": 0
     }
   },
@@ -112,14 +101,12 @@
     "gender": "female",
     "stats": {
       "atBat": 14,
-      "hits": 7,
       "walks": 0,
       "runsBattedIn": 2,
       "firstBase": 5,
       "secondBase": 0,
       "thirdBase": 1,
       "homeRuns": 1,
-      "struckOut": 0,
       "catches": 4,
       "mvp": 1
     }
@@ -130,14 +117,12 @@
     "gender": "male",
     "stats": {
       "atBat": 13,
-      "hits": 11,
       "walks": 1,
       "runsBattedIn": 12,
       "firstBase": 3,
       "secondBase": 3,
       "thirdBase": 2,
       "homeRuns": 2,
-      "struckOut": 0,
       "catches": 1,
       "mvp": 1
     }
@@ -148,14 +133,12 @@
     "gender": "male",
     "stats": {
       "atBat": 19,
-      "hits": 14,
       "walks": 0,
       "runsBattedIn": 11,
       "firstBase": 6,
       "secondBase": 6,
       "thirdBase": 1,
       "homeRuns": 1,
-      "struckOut": 0,
       "catches": 4,
       "mvp": 1
     }
@@ -166,14 +149,12 @@
     "gender": "female",
     "stats": {
       "atBat": 9,
-      "hits": 1,
       "walks": 0,
       "runsBattedIn": 1,
       "firstBase": 0,
       "secondBase": 1,
       "thirdBase": 0,
       "homeRuns": 0,
-      "struckOut": 0,
       "catches": 0,
       "mvp": 0
     }
@@ -184,14 +165,12 @@
     "gender": "male",
     "stats": {
       "atBat": 5,
-      "hits": 1,
       "walks": 1,
       "runsBattedIn": 0,
       "firstBase": 0,
       "secondBase": 0,
       "thirdBase": 0,
       "homeRuns": 0,
-      "struckOut": 0,
       "mvp": 0
     }
   },
@@ -201,14 +180,12 @@
     "gender": "female",
     "stats": {
       "atBat": 13,
-      "hits": 6,
       "walks": 1,
       "runsBattedIn": 2,
       "firstBase": 5,
       "secondBase": 0,
       "thirdBase": 0,
       "homeRuns": 0,
-      "struckOut": 0,
       "catches": 0,
       "mvp": 0
     }
@@ -219,14 +196,12 @@
     "gender": "female",
     "stats": {
       "atBat": 13,
-      "hits": 3,
       "walks": 0,
       "runsBattedIn": 1,
       "firstBase": 3,
       "secondBase": 0,
       "thirdBase": 0,
       "homeRuns": 0,
-      "struckOut": 0,
       "catches": 0,
       "mvp": 0
     }
@@ -237,14 +212,12 @@
     "gender": "male",
     "stats": {
       "atBat": 16,
-      "hits": 12,
       "walks": 0,
       "runsBattedIn": 9,
       "firstBase": 10,
       "secondBase": 2,
       "thirdBase": 0,
       "homeRuns": 0,
-      "struckOut": 0,
       "catches": 1,
       "mvp": 0
     }
