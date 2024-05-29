@@ -11,7 +11,7 @@
     </v-col>
     <v-col>
       <h2 class="text-h5">Pitch Map</h2>
-      <v-img src="@/assets/wsg-pitch-map-2023.jpg" />
+      <v-img src="@/assets/parrs-wood-pitch-map-2024.jpg" />
 
       <EasyFundraising></EasyFundraising>
     </v-col>

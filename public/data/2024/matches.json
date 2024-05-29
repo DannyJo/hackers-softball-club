@@ -1,0 +1,182 @@
+[
+  {
+    "outcome": "LOSS",
+    "place": "HOME",
+    "date": "2024-05-07",
+    "opposition": "Bandidos",
+    "result": "27 - 19",
+    "mvp": "Ella & Ian M.",
+    "pitch": "2",
+    "stats":  true
+  },
+  {
+    "outcome": "WIN",
+    "place": "AWAY",
+    "date": "2024-05-14",
+    "opposition": "Mayhem Freeze",
+    "result": "15 - 10",
+    "mvp": "Grace & Jack",
+    "pitch": "3",
+    "stats":  true
+  },
+  {
+    "outcome": "WIN",
+    "place": "HOME",
+    "date": "2024-05-21",
+    "opposition": "Sluggababes",
+    "result": "8 - 22",
+    "mvp": "Ella & Alex",
+    "pitch": "8",
+    "stats":  true
+  },
+  {
+    "outcome": "WIN",
+    "place": "AWAY",
+    "date": "2024-05-28",
+    "opposition": "Thunder III",
+    "result": "16 - 11",
+    "mvp": "Ella & Alex",
+    "pitch": "8",
+    "stats":  true
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2024-06-04",
+    "opposition": "Fireballs",
+    "result": "",
+    "mvp": "",
+    "pitch": "6",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-06-11",
+    "opposition": "Seagulls",
+    "result": "",
+    "mvp": "",
+    "pitch": "6",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2024-06-18",
+    "opposition": "Thunder IV",
+    "result": "",
+    "mvp": "",
+    "pitch": "6",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-06-25",
+    "opposition": "Tiggers",
+    "result": "",
+    "mvp": "",
+    "pitch": "4",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2024-07-02",
+    "opposition": "Raiders",
+    "result": "",
+    "mvp": "",
+    "pitch": "7",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-07-09",
+    "opposition": "Barflies",
+    "result": "",
+    "mvp": "",
+    "pitch": "4",
+    "stats":  false
+  },
+  {
+    "outcome": "RESTING",
+    "place": "RESTING",
+    "date": "2024-07-16",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-07-23",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-07-30",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-08-06",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-08-13",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-08-20",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-08-27",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2024-09-03",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  }
+]

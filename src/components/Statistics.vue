@@ -20,37 +20,83 @@
   </v-menu>
   <v-table density="compact" hover>
     <thead>
-      <tr>
-        <th @click="sortBy('name')" class="text-primary bg-white" style="position: sticky; top: 0; left: 0; z-index: 2">Player <v-icon size="1em" :icon="getSortIcon('name')" /></th>
-        <th v-show="tableState.columns['AB']" @click="sortBy('atBat')" class="text-primary text-center">AB <v-icon size="1em" :icon="getSortIcon('atBat')" /></th>
-        <th v-show="tableState.columns['H']" @click="sortBy('hits')" class="text-primary text-center">H <v-icon size="1em" :icon="getSortIcon('hits')" /></th>
-        <th v-show="tableState.columns['BB']" @click="sortBy('walks')" class="text-primary text-center">BB <v-icon size="1em" :icon="getSortIcon('walks')" /></th>
-        <th v-show="tableState.columns['RBI']" @click="sortBy('runsBattedIn')" class="text-primary text-center">RBI <v-icon size="1em" :icon="getSortIcon('runsBattedIn')" /></th>
-        <th v-show="tableState.columns['1B']" @click="sortBy('firstBase')" class="text-primary text-center">1B <v-icon size="1em" :icon="getSortIcon('firstBase')" /></th>
-        <th v-show="tableState.columns['2B']" @click="sortBy('secondBase')" class="text-primary text-center">2B <v-icon size="1em" :icon="getSortIcon('secondBase')" /></th>
-        <th v-show="tableState.columns['3B']" @click="sortBy('thirdBase')" class="text-primary text-center">3B <v-icon size="1em" :icon="getSortIcon('thirdBase')" /></th>
-        <th v-show="tableState.columns['HR']" @click="sortBy('homeRuns')" class="text-primary text-center">HR <v-icon size="1em" :icon="getSortIcon('homeRuns')" /></th>
-        <th v-show="tableState.columns['K']" @click="sortBy('struckOut')" class="text-primary text-center">K <v-icon size="1em" :icon="getSortIcon('struckOut')" /></th>
-        <th v-show="tableState.columns['MVP']" @click="sortBy('mvp')" class="text-primary text-center">MVP <v-icon size="1em" :icon="getSortIcon('mvp')" /></th>
-        <th v-show="tableState.columns['AVG']" @click="sortBy('avg')" class="text-primary text-center">AVG <v-icon size="1em" :icon="getSortIcon('avg')" /></th>
-      </tr>
+    <tr>
+      <th @click="sortBy('name')" class="text-primary bg-white" style="position: sticky; top: 0; left: 0; z-index: 2">Player
+        <v-icon size="1em" :icon="getSortIcon('name')"/>
+      </th>
+      <th v-show="tableState.columns['AB']" @click="sortBy('atBat')" class="text-primary text-center">AB
+        <v-icon size="1em" :icon="getSortIcon('atBat')"/>
+      </th>
+      <th v-show="tableState.columns['H']" @click="sortBy('hits')" class="text-primary text-center">H
+        <v-icon size="1em" :icon="getSortIcon('hits')"/>
+      </th>
+      <th v-show="tableState.columns['BB']" @click="sortBy('walks')" class="text-primary text-center">BB
+        <v-icon size="1em" :icon="getSortIcon('walks')"/>
+      </th>
+      <th v-show="tableState.columns['RBI']" @click="sortBy('runsBattedIn')" class="text-primary text-center">RBI
+        <v-icon size="1em" :icon="getSortIcon('runsBattedIn')"/>
+      </th>
+      <th v-show="tableState.columns['1B']" @click="sortBy('firstBase')" class="text-primary text-center">1B
+        <v-icon size="1em" :icon="getSortIcon('firstBase')"/>
+      </th>
+      <th v-show="tableState.columns['2B']" @click="sortBy('secondBase')" class="text-primary text-center">2B
+        <v-icon size="1em" :icon="getSortIcon('secondBase')"/>
+      </th>
+      <th v-show="tableState.columns['3B']" @click="sortBy('thirdBase')" class="text-primary text-center">3B
+        <v-icon size="1em" :icon="getSortIcon('thirdBase')"/>
+      </th>
+      <th v-show="tableState.columns['HR']" @click="sortBy('homeRuns')" class="text-primary text-center">HR
+        <v-icon size="1em" :icon="getSortIcon('homeRuns')"/>
+      </th>
+      <th v-show="tableState.columns['K']" @click="sortBy('struckOut')" class="text-primary text-center">K
+        <v-icon size="1em" :icon="getSortIcon('struckOut')"/>
+      </th>
+      <th v-show="tableState.columns['MVP']" @click="sortBy('mvp')" class="text-primary text-center">MVP
+        <v-icon size="1em" :icon="getSortIcon('mvp')"/>
+      </th>
+      <th v-show="tableState.columns['AVG']" @click="sortBy('avg')" class="text-primary text-center">AVG
+        <v-icon size="1em" :icon="getSortIcon('avg')"/>
+      </th>
+    </tr>
     </thead>
     <tbody>
-      <tr v-for="player in playerStats" :class="{'bg-warning': erroneousData(player.stats)}">
-        <td class="bg-white text-no-wrap" style="border-right: 1px solid lightgray; position: sticky; top: 0; left: 0; z-index: 2">{{ getPlayerName(player) }}</td>
-        <td v-show="tableState.columns['AB']" class="text-center">{{ player.stats.atBat }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['H']" class="text-center">{{ player.stats.hits }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['BB']" class="text-center">{{ player.stats.walks }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['RBI']" class="text-center">{{ player.stats.runsBattedIn }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['1B']" class="text-center bg-yellow-lighten-4">{{ player.stats.firstBase }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['2B']" class="text-center bg-yellow-lighten-4">{{ player.stats.secondBase }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['3B']" class="text-center bg-yellow-lighten-4">{{ player.stats.thirdBase }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['HR']" class="text-center bg-yellow-lighten-4">{{ player.stats.homeRuns }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['K']" class="text-center">{{ player.stats.struckOut }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['MVP']" class="text-center">{{ player.stats.mvp }} <v-icon size="1em" icon="" /></td>
-        <td v-show="tableState.columns['AVG']" class="text-center">{{ player.stats.avg }} <v-icon size="1em" icon="" /></td>
-        <th v-show="erroneousData(player.stats)" class="text-error text-center">ERROR</th>
-      </tr>
+    <tr v-for="player in playerStats" :class="{'bg-warning': erroneousData(player.stats)}">
+      <td class="bg-white text-no-wrap" style="border-right: 1px solid lightgray; position: sticky; top: 0; left: 0; z-index: 2">{{ getPlayerName(player) }}</td>
+      <td v-show="tableState.columns['AB']" class="text-center">{{ player.stats.atBat }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['H']" class="text-center">{{ player.stats.hits }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['BB']" class="text-center">{{ player.stats.walks }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['RBI']" class="text-center">{{ player.stats.runsBattedIn }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['1B']" class="text-center bg-yellow-lighten-4">{{ player.stats.firstBase }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['2B']" class="text-center bg-yellow-lighten-4">{{ player.stats.secondBase }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['3B']" class="text-center bg-yellow-lighten-4">{{ player.stats.thirdBase }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['HR']" class="text-center bg-yellow-lighten-4">{{ player.stats.homeRuns }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['K']" class="text-center">{{ player.stats.struckOut }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['MVP']" class="text-center">{{ player.stats.mvp }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['AVG']" class="text-center">{{ player.stats.avg }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <th v-show="erroneousData(player.stats)" class="text-error text-center">ERROR</th>
+    </tr>
     </tbody>
   </v-table>
 </template>
@@ -62,13 +108,14 @@ const props = defineProps(['season'])
 
 const playerData = ref([]);
 
-const getData = async function(season) {
+const getData = async function (season) {
   const res = await fetch("/data/" + season + "/players.json");
   playerData.value = await res.json();
 }
 
-const erroneousData = function(stats) {
-  return stats.hits !== (stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns);
+const erroneousData = function (stats) {
+  return (stats.hits !== (stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns)) // Count hits equals times reached base excluding walks
+    && (stats.atBat === stats.walks + stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns + stats.struckOut);
 }
 
 const tableState = reactive({
@@ -89,7 +136,7 @@ const tableState = reactive({
   }
 });
 
-const sortBy = function(field) {
+const sortBy = function (field) {
   if (field === tableState.sortBy) {
     tableState.sortDirection *= -1;
   } else {
@@ -99,11 +146,11 @@ const sortBy = function(field) {
   tableState.sortBy = field;
 }
 
-const getPlayerName = function(player) {
+const getPlayerName = function (player) {
   return player.team === 'Hackers' ? player.name : player.name + ' (' + player.team + ')';
 }
 
-const getSortIcon = function(field) {
+const getSortIcon = function (field) {
   if (tableState.sortBy !== field) {
     return '';
   }

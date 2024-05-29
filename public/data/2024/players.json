@@ -1,0 +1,269 @@
+[
+  {
+    "name": "Abbie",
+    "team": "Hackers",
+    "gender": "female",
+    "stats": {
+      "atBat": 18,
+      "hits": 9,
+      "walks": 0,
+      "runsBattedIn": 8,
+      "firstBase": 6,
+      "secondBase": 3,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "catches": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Alex",
+    "team": "Hackers",
+    "gender": "male",
+    "stats": {
+      "atBat": 9,
+      "hits": 8,
+      "walks": 0,
+      "runsBattedIn": 5,
+      "firstBase": 3,
+      "secondBase": 4,
+      "thirdBase": 1,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "catches": 2,
+      "mvp": 2
+    }
+  },
+  {
+    "name": "Daniel",
+    "team": "Hackers",
+    "gender": "male",
+    "stats": {
+      "atBat": 13,
+      "hits": 10,
+      "walks": 1,
+      "runsBattedIn": 7,
+      "firstBase": 3,
+      "secondBase": 6,
+      "thirdBase": 1,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "catches": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Darren",
+    "team": "Hackers",
+    "gender": "male",
+    "stats": {
+      "atBat": 13,
+      "hits": 8,
+      "walks": 1,
+      "runsBattedIn": 6,
+      "firstBase": 4,
+      "secondBase": 3,
+      "thirdBase": 1,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "catches": 1,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Ella",
+    "team": "Hackers",
+    "gender": "female",
+    "stats": {
+      "atBat": 13,
+      "hits": 12,
+      "walks": 0,
+      "runsBattedIn": 5,
+      "firstBase": 9,
+      "secondBase": 2,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "catches": 1,
+      "mvp": 3
+    }
+  },
+  {
+    "name": "Emma",
+    "team": "Hackers",
+    "gender": "female",
+    "stats": {
+      "atBat": 14,
+      "hits": 4,
+      "walks": 1,
+      "runsBattedIn": 3,
+      "firstBase": 2,
+      "secondBase": 2,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Grace",
+    "team": "Hackers",
+    "gender": "female",
+    "stats": {
+      "atBat": 14,
+      "hits": 7,
+      "walks": 0,
+      "runsBattedIn": 2,
+      "firstBase": 5,
+      "secondBase": 0,
+      "thirdBase": 1,
+      "homeRuns": 1,
+      "struckOut": 0,
+      "catches": 4,
+      "mvp": 1
+    }
+  },
+  {
+    "name": "Harry",
+    "team": "Hackers",
+    "gender": "male",
+    "stats": {
+      "atBat": 0,
+      "hits": 0,
+      "walks": 0,
+      "runsBattedIn": 0,
+      "firstBase": 0,
+      "secondBase": 0,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Ian M",
+    "team": "Hackers",
+    "gender": "male",
+    "stats": {
+      "atBat": 13,
+      "hits": 10,
+      "walks": 1,
+      "runsBattedIn": 12,
+      "firstBase": 3,
+      "secondBase": 3,
+      "thirdBase": 2,
+      "homeRuns": 2,
+      "struckOut": 0,
+      "catches": 1,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Jack",
+    "team": "Hackers",
+    "gender": "male",
+    "stats": {
+      "atBat": 19,
+      "hits": 14,
+      "walks": 0,
+      "runsBattedIn": 11,
+      "firstBase": 6,
+      "secondBase": 6,
+      "thirdBase": 1,
+      "homeRuns": 1,
+      "struckOut": 0,
+      "catches": 4,
+      "mvp": 1
+    }
+  },
+  {
+    "name": "Katie",
+    "team": "Hackers",
+    "gender": "female",
+    "stats": {
+      "atBat": 9,
+      "hits": 1,
+      "walks": 0,
+      "runsBattedIn": 1,
+      "firstBase": 0,
+      "secondBase": 1,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "catches": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Kyle",
+    "team": "Hackers",
+    "gender": "male",
+    "stats": {
+      "atBat": 5,
+      "hits": 0,
+      "walks": 1,
+      "runsBattedIn": 0,
+      "firstBase": 0,
+      "secondBase": 0,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Rachel",
+    "team": "Hackers",
+    "gender": "female",
+    "stats": {
+      "atBat": 13,
+      "hits": 5,
+      "walks": 1,
+      "runsBattedIn": 2,
+      "firstBase": 5,
+      "secondBase": 0,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "catches": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Priti",
+    "team": "Hackers",
+    "gender": "female",
+    "stats": {
+      "atBat": 13,
+      "hits": 3,
+      "walks": 0,
+      "runsBattedIn": 1,
+      "firstBase": 3,
+      "secondBase": 0,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "catches": 0,
+      "mvp": 0
+    }
+  },
+  {
+    "name": "Sean",
+    "team": "Hackers",
+    "gender": "male",
+    "stats": {
+      "atBat": 16,
+      "hits": 12,
+      "walks": 0,
+      "runsBattedIn": 9,
+      "firstBase": 10,
+      "secondBase": 2,
+      "thirdBase": 0,
+      "homeRuns": 0,
+      "struckOut": 0,
+      "catches": 1,
+      "mvp": 0
+    }
+  }
+]
