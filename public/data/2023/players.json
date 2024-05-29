@@ -5,7 +5,7 @@
     "gender": "female",
     "stats": {
       "atBat": 23,
-      "hits": 11,
+      "hits": 13,
       "walks": 2,
       "runsBattedIn": 4,
       "firstBase": 9,
@@ -56,7 +56,7 @@
     "gender": "male",
     "stats": {
       "atBat": 17,
-      "hits": 9,
+      "hits": 10,
       "walks": 1,
       "runsBattedIn": 7,
       "firstBase": 2,
@@ -90,7 +90,7 @@
     "gender": "female",
     "stats": {
       "atBat": 20,
-      "hits": 5,
+      "hits": 7,
       "walks": 2,
       "runsBattedIn": 3,
       "firstBase": 5,
@@ -141,7 +141,7 @@
     "gender": "male",
     "stats": {
       "atBat": 22,
-      "hits": 12,
+      "hits": 14,
       "walks": 2,
       "runsBattedIn": 10,
       "firstBase": 6,
@@ -158,7 +158,7 @@
     "gender": "male",
     "stats": {
       "atBat": 22,
-      "hits": 17,
+      "hits": 19,
       "walks": 2,
       "runsBattedIn": 12,
       "firstBase": 5,
@@ -192,7 +192,7 @@
     "gender": "male",
     "stats": {
       "atBat": 23,
-      "hits": 14,
+      "hits": 15,
       "walks": 1,
       "runsBattedIn": 5,
       "firstBase": 10,
@@ -226,7 +226,7 @@
     "gender": "female",
     "stats": {
       "atBat": 13,
-      "hits": 7,
+      "hits": 8,
       "walks": 1,
       "runsBattedIn": 2,
       "firstBase": 3,
@@ -260,7 +260,7 @@
     "gender": "female",
     "stats": {
       "atBat": 5,
-      "hits": 1,
+      "hits": 2,
       "walks": 1,
       "runsBattedIn": 0,
       "firstBase": 0,

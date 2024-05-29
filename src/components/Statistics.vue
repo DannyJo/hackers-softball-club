@@ -48,8 +48,8 @@
       <th v-show="tableState.columns['HR']" @click="sortBy('homeRuns')" class="text-primary text-center">HR
         <v-icon size="1em" :icon="getSortIcon('homeRuns')"/>
       </th>
-      <th v-show="tableState.columns['K']" @click="sortBy('struckOut')" class="text-primary text-center">K
-        <v-icon size="1em" :icon="getSortIcon('struckOut')"/>
+      <th v-show="tableState.columns['C']" @click="sortBy('catches')" class="text-primary text-center">C
+        <v-icon size="1em" :icon="getSortIcon('catches')"/>
       </th>
       <th v-show="tableState.columns['MVP']" @click="sortBy('mvp')" class="text-primary text-center">MVP
         <v-icon size="1em" :icon="getSortIcon('mvp')"/>
@@ -86,7 +86,7 @@
       <td v-show="tableState.columns['HR']" class="text-center bg-yellow-lighten-4">{{ player.stats.homeRuns }}
         <v-icon size="1em" icon=""/>
       </td>
-      <td v-show="tableState.columns['K']" class="text-center">{{ player.stats.struckOut }}
+      <td v-show="tableState.columns['C']" class="text-center">{{ player.stats.catches }}
         <v-icon size="1em" icon=""/>
       </td>
       <td v-show="tableState.columns['MVP']" class="text-center">{{ player.stats.mvp }}
@@ -114,8 +114,7 @@ const getData = async function (season) {
 }
 
 const erroneousData = function (stats) {
-  return (stats.hits !== (stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns)) // Count hits equals times reached base excluding walks
-    && (stats.atBat === stats.walks + stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns + stats.struckOut);
+  return (stats.hits !== (stats.walks + stats.firstBase + stats.secondBase + stats.thirdBase + stats.homeRuns));
 }
 
 const tableState = reactive({
@@ -130,7 +129,7 @@ const tableState = reactive({
     '2B': true,
     '3B': true,
     HR: true,
-    K: false,
+    C: true,
     MVP: true,
     AVG: true
   }
