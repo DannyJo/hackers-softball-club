@@ -54,6 +54,9 @@
       <th v-show="tableState.columns['MVP']" @click="sortBy('mvp')" class="text-primary text-center">MVP
         <v-icon size="1em" :icon="getSortIcon('mvp')"/>
       </th>
+      <th v-show="tableState.columns['SLG']" @click="sortBy('slg')" class="text-primary text-center">SLG
+        <v-icon size="1em" :icon="getSortIcon('slg')"/>
+      </th>
       <th v-show="tableState.columns['AVG']" @click="sortBy('avg')" class="text-primary text-center">AVG
         <v-icon size="1em" :icon="getSortIcon('avg')"/>
       </th>
@@ -90,6 +93,9 @@
         <v-icon size="1em" icon=""/>
       </td>
       <td v-show="tableState.columns['MVP']" class="text-center">{{ player.stats.mvp || '-' }}
+        <v-icon size="1em" icon=""/>
+      </td>
+      <td v-show="tableState.columns['SLG']" class="text-center">{{ player.stats.slg }}
         <v-icon size="1em" icon=""/>
       </td>
       <td v-show="tableState.columns['AVG']" class="text-center">{{ player.stats.avg }}
@@ -131,6 +137,7 @@ const tableState = reactive({
     RBI: true,
     C: true,
     MVP: true,
+    SLG: true,
     AVG: true
   }
 });
@@ -139,7 +146,7 @@ const sortBy = function (field) {
   if (field === tableState.sortBy) {
     tableState.sortDirection *= -1;
   } else {
-    tableState.sortDirection = 1;
+    tableState.sortDirection = (field === 'name') ? 1 : -1;
   }
 
   tableState.sortBy = field;
@@ -164,13 +171,16 @@ const getSortIcon = function (field) {
 const playerStats = computed(() => {
   return [...playerData.value].map(value => {
     const hits = value.stats.walks + value.stats.firstBase + value.stats.secondBase + value.stats.thirdBase + value.stats.homeRuns;
+    const slugPoints = value.stats.firstBase + (value.stats.secondBase * 2) + (value.stats.thirdBase * 3) + (value.stats.homeRuns * 4);
+    const atBat = value.stats.atBat;
 
     return {
       ...value,
       stats: {
         ...value.stats,
         hits,
-        avg: value.stats.atBat === 0 ? 0 : (hits / value.stats.atBat).toFixed(3)
+        slg: atBat === 0 ? 0 : (slugPoints / atBat).toFixed(3),
+        avg: atBat === 0 ? 0 : (hits / atBat).toFixed(3)
       }
     }
   }).sort((p1, p2) => {

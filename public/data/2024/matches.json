@@ -40,14 +40,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "HOME",
     "date": "2024-06-04",
     "opposition": "Fireballs",
-    "result": "",
-    "mvp": "",
+    "result": "14 - 16",
+    "mvp": "Ella & Radders",
     "pitch": "6",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
