@@ -153,7 +153,7 @@ const sortBy = function (field) {
 }
 
 const getPlayerName = function (player) {
-  return player.team === 'Hackers' ? player.name : player.name + ' (' + player.team + ')';
+  return player.team && player.team !== 'Hackers' ? player.name + ' (' + player.team + ')' : player.name;
 }
 
 const getSortIcon = function (field) {
