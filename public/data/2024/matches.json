@@ -50,14 +50,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "AWAY",
     "date": "2024-06-11",
     "opposition": "Seagulls",
-    "result": "",
-    "mvp": "",
+    "result": "21 - 10",
+    "mvp": "Grace & Alex",
     "pitch": "6",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
