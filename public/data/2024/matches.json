@@ -60,14 +60,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "HOME",
     "date": "2024-06-18",
     "opposition": "Thunder IV",
-    "result": "",
-    "mvp": "",
+    "result": "10 - 29",
+    "mvp": "Grace & Alex",
     "pitch": "6",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
