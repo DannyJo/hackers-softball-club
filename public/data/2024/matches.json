@@ -90,14 +90,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2024-07-09",
     "opposition": "Barflies",
-    "result": "",
-    "mvp": "",
+    "result": "14 - 29",
+    "mvp": "Katie & Jack",
     "pitch": "4",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "RESTING",
