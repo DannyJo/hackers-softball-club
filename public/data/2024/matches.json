@@ -113,70 +113,50 @@
     "outcome": "FIXTURE",
     "place": "AWAY",
     "date": "2024-07-23",
-    "opposition": "",
+    "opposition": "Tiggers",
     "result": "",
     "mvp": "",
-    "pitch": "",
+    "pitch": "7",
     "stats":  false
   },
   {
     "outcome": "FIXTURE",
-    "place": "AWAY",
+    "place": "HOME",
     "date": "2024-07-30",
-    "opposition": "",
+    "opposition": "Thunder III",
     "result": "",
     "mvp": "",
-    "pitch": "",
+    "pitch": "1",
     "stats":  false
   },
   {
     "outcome": "FIXTURE",
     "place": "AWAY",
     "date": "2024-08-06",
-    "opposition": "",
+    "opposition": "Bandidos",
     "result": "",
     "mvp": "",
-    "pitch": "",
+    "pitch": "4",
     "stats":  false
   },
   {
     "outcome": "FIXTURE",
     "place": "AWAY",
     "date": "2024-08-13",
-    "opposition": "",
+    "opposition": "Sluggababes",
     "result": "",
     "mvp": "",
-    "pitch": "",
+    "pitch": "3",
     "stats":  false
   },
   {
     "outcome": "FIXTURE",
     "place": "AWAY",
     "date": "2024-08-20",
-    "opposition": "",
+    "opposition": "Raiders",
     "result": "",
     "mvp": "",
-    "pitch": "",
-    "stats":  false
-  },
-  {
-    "outcome": "FIXTURE",
-    "place": "AWAY",
-    "date": "2024-08-27",
-    "opposition": "",
-    "result": "",
-    "mvp": "",
-    "pitch": "",
-    "stats":  false
-  },
-  {
-    "outcome": "FIXTURE",
-    "place": "AWAY",
-    "date": "2024-09-03",
-    "opposition": "",
-    "result": "",
-    "mvp": "",
-    "pitch": "",
+    "pitch": "6",
     "stats":  false
   }
 ]
