@@ -110,14 +110,14 @@
     "stats":  false
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "AWAY",
     "date": "2024-07-23",
     "opposition": "Tiggers",
-    "result": "",
-    "mvp": "",
+    "result": "12 - 8",
+    "mvp": "Ella & Darren",
     "pitch": "7",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
