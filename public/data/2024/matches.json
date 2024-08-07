@@ -120,14 +120,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "HOME",
     "date": "2024-07-30",
     "opposition": "Thunder III",
-    "result": "",
-    "mvp": "",
+    "result": "26 - 8",
+    "mvp": "Priti & Radders",
     "pitch": "1",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
