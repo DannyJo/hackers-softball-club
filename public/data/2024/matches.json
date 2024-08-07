@@ -130,14 +130,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "AWAY",
     "date": "2024-08-06",
     "opposition": "Bandidos",
-    "result": "",
-    "mvp": "",
+    "result": "17 - 7",
+    "mvp": "Ella & Alex",
     "pitch": "4",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
