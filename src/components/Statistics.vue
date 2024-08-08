@@ -71,19 +71,19 @@
       <td v-show="tableState.columns['H']" class="text-center">{{ player.stats.hits }}
         <v-icon size="1em" icon=""/>
       </td>
-      <td v-show="tableState.columns['BB']" class="text-center bg-yellow-lighten-4">{{ player.stats.walks }}
+      <td v-show="tableState.columns['BB']" class="text-center bg-yellow-lighten-4" :title="percentageOfHits(player.stats.walks, player)">{{ player.stats.walks }}
         <v-icon size="1em" icon=""/>
       </td>
-      <td v-show="tableState.columns['1B']" class="text-center bg-yellow-lighten-4">{{ player.stats.firstBase }}
+      <td v-show="tableState.columns['1B']" class="text-center bg-yellow-lighten-4" :title="percentageOfHits(player.stats.firstBase, player)">{{ player.stats.firstBase }}
         <v-icon size="1em" icon=""/>
       </td>
-      <td v-show="tableState.columns['2B']" class="text-center bg-yellow-lighten-4">{{ player.stats.secondBase }}
+      <td v-show="tableState.columns['2B']" class="text-center bg-yellow-lighten-4" :title="percentageOfHits(player.stats.secondBase, player)">{{ player.stats.secondBase }}
         <v-icon size="1em" icon=""/>
       </td>
-      <td v-show="tableState.columns['3B']" class="text-center bg-yellow-lighten-4">{{ player.stats.thirdBase }}
+      <td v-show="tableState.columns['3B']" class="text-center bg-yellow-lighten-4" :title="percentageOfHits(player.stats.thirdBase, player)">{{ player.stats.thirdBase }}
         <v-icon size="1em" icon=""/>
       </td>
-      <td v-show="tableState.columns['HR']" class="text-center bg-yellow-lighten-4">{{ player.stats.homeRuns }}
+      <td v-show="tableState.columns['HR']" class="text-center bg-yellow-lighten-4" :title="percentageOfHits(player.stats.homeRuns, player)">{{ player.stats.homeRuns }}
         <v-icon size="1em" icon=""/>
       </td>
       <td v-show="tableState.columns['RBI']" class="text-center">{{ player.stats.runsBattedIn }}
@@ -154,6 +154,10 @@ const sortBy = function (field) {
 
 const getPlayerName = function (player) {
   return player.team && player.team !== 'Hackers' ? player.name + ' (' + player.team + ')' : player.name;
+}
+
+const percentageOfHits = function (value, player) {
+  return ((value / player.stats.hits) * 100).toFixed(2) + "% of hits";
 }
 
 const getSortIcon = function (field) {
