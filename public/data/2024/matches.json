@@ -150,13 +150,13 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "AWAY",
     "date": "2024-08-20",
     "opposition": "Raiders",
-    "result": "",
-    "mvp": "",
+    "result": "19 - 17",
+    "mvp": "Grace & Jack",
     "pitch": "6",
-    "stats":  false
+    "stats":  true
   }
 ]
