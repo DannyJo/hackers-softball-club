@@ -140,14 +140,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2024-08-13",
     "opposition": "Sluggababes",
-    "result": "",
-    "mvp": "",
+    "result": "10 - 11",
+    "mvp": "Ella & Jack",
     "pitch": "3",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
