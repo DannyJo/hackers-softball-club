@@ -1,0 +1,182 @@
+[
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2025-04-30",
+    "opposition": "Camels II",
+    "result": "",
+    "mvp": "",
+    "pitch": "F",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2025-05-07",
+    "opposition": "Titans",
+    "result": "",
+    "mvp": "",
+    "pitch": "D",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2025-05-14",
+    "opposition": "Dodgers",
+    "result": "",
+    "mvp": "",
+    "pitch": "E",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2025-05-21",
+    "opposition": "Speeders",
+    "result": "",
+    "mvp": "",
+    "pitch": "F",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2025-05-28",
+    "opposition": "Mavs II",
+    "result": "",
+    "mvp": "",
+    "pitch": "C",
+    "stats":  false
+  },
+  {
+    "outcome": "RESTING",
+    "place": "REST",
+    "date": "2025-06-04",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2025-06-11",
+    "opposition": "Screwballs",
+    "result": "",
+    "mvp": "",
+    "pitch": "C",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2025-06-18",
+    "opposition": "Bandidos",
+    "result": "",
+    "mvp": "",
+    "pitch": "D",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2025-06-25",
+    "opposition": "Bats",
+    "result": "",
+    "mvp": "",
+    "pitch": "B",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2025-07-02",
+    "opposition": "Camels II",
+    "result": "",
+    "mvp": "",
+    "pitch": "H",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2025-07-09",
+    "opposition": "Titans",
+    "result": "",
+    "mvp": "",
+    "pitch": "A",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2025-07-16",
+    "opposition": "Dodgers",
+    "result": "",
+    "mvp": "",
+    "pitch": "G",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2025-07-23",
+    "opposition": "Speeders",
+    "result": "",
+    "mvp": "",
+    "pitch": "G",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "HOME",
+    "date": "2025-07-30",
+    "opposition": "Mavs II",
+    "result": "",
+    "mvp": "",
+    "pitch": "H",
+    "stats":  false
+  },
+  {
+    "outcome": "RESTING",
+    "place": "REST",
+    "date": "2025-08-06",
+    "opposition": "",
+    "result": "",
+    "mvp": "",
+    "pitch": "",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2025-08-13",
+    "opposition": "Screwballs",
+    "result": "",
+    "mvp": "",
+    "pitch": "F",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2025-08-20",
+    "opposition": "Bandidos",
+    "result": "",
+    "mvp": "",
+    "pitch": "D",
+    "stats":  false
+  },
+  {
+    "outcome": "FIXTURE",
+    "place": "AWAY",
+    "date": "2025-08-27",
+    "opposition": "Bats",
+    "result": "",
+    "mvp": "",
+    "pitch": "F",
+    "stats":  false
+  }
+]
