@@ -1,13 +1,13 @@
 [
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "HOME",
     "date": "2025-04-30",
     "opposition": "Camels II",
-    "result": "",
-    "mvp": "",
+    "result": "22 - 21",
+    "mvp": "Grace & Daniel",
     "pitch": "F",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
