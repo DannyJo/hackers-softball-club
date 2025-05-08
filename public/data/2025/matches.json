@@ -4,20 +4,20 @@
     "place": "HOME",
     "date": "2025-04-30",
     "opposition": "Camels II",
-    "result": "22 - 21",
+    "result": "21 - 22",
     "mvp": "Grace & Daniel",
     "pitch": "F",
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2025-05-07",
     "opposition": "Titans",
-    "result": "",
-    "mvp": "",
+    "result": "22 - 25",
+    "mvp": "Ella & Darren",
     "pitch": "D",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
