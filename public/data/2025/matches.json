@@ -30,14 +30,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2025-05-21",
     "opposition": "Speeders",
-    "result": "",
-    "mvp": "",
+    "result": "20 - 21",
+    "mvp": "Rachel & Daniel",
     "pitch": "F",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
