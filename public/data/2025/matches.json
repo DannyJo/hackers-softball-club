@@ -40,14 +40,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2025-05-28",
     "opposition": "Mavs II",
-    "result": "",
-    "mvp": "",
+    "result": "15 - 17",
+    "mvp": "Carmen & Jack",
     "pitch": "C",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "RESTING",
