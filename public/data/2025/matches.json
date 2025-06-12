@@ -60,14 +60,14 @@
     "stats":  false
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "HOME",
     "date": "2025-06-11",
     "opposition": "Screwballs",
-    "result": "",
-    "mvp": "",
+    "result": "13 - 14",
+    "mvp": "Ella & Alex",
     "pitch": "C",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
