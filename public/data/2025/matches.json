@@ -70,14 +70,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "HOME",
     "date": "2025-06-18",
     "opposition": "Bandidos",
-    "result": "",
-    "mvp": "",
+    "result": "5 - 16",
+    "mvp": "Carmen & Alex",
     "pitch": "D",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
