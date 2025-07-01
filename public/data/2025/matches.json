@@ -80,14 +80,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "HOME",
     "date": "2025-06-25",
     "opposition": "Bats",
-    "result": "",
-    "mvp": "",
+    "result": "10 - 6",
+    "mvp": "Carmen & Alex",
     "pitch": "B",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
