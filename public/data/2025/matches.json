@@ -90,14 +90,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "AWAY",
     "date": "2025-07-02",
     "opposition": "Camels II",
-    "result": "",
-    "mvp": "",
+    "result": "30 - 22",
+    "mvp": "Carmen & Alex",
     "pitch": "H",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
