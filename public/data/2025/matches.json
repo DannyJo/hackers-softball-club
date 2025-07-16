@@ -100,14 +100,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "HOME",
     "date": "2025-07-09",
     "opposition": "Titans",
-    "result": "",
-    "mvp": "",
+    "result": "21 - 23",
+    "mvp": "Ella & Sean",
     "pitch": "A",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
