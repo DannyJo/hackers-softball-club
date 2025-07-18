@@ -110,14 +110,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "HOME",
     "date": "2025-07-16",
     "opposition": "Dodgers",
-    "result": "",
-    "mvp": "",
+    "result": "24 - 13",
+    "mvp": "Grace & Jack",
     "pitch": "G",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
