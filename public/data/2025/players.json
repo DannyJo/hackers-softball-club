@@ -20,13 +20,13 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 26,
-      "walks": 1,
-      "runsBattedIn": 19,
+      "atBat": 30,
+      "walks": 2,
+      "runsBattedIn": 24,
       "firstBase": 9,
-      "secondBase": 6,
+      "secondBase": 7,
       "thirdBase": 4,
-      "homeRuns": 4,
+      "homeRuns": 6,
       "catches": 12,
       "mvp": 4
     }
@@ -36,14 +36,14 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 49,
+      "atBat": 53,
       "walks": 2,
-      "runsBattedIn": 13,
-      "firstBase": 18,
+      "runsBattedIn": 14,
+      "firstBase": 19,
       "secondBase": 4,
       "thirdBase": 1,
       "homeRuns": 0,
-      "catches": 4,
+      "catches": 5,
       "mvp": 4
     }
   },
@@ -52,11 +52,11 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 40,
+      "atBat": 41,
       "walks": 0,
       "runsBattedIn": 19,
       "firstBase": 14,
-      "secondBase": 7,
+      "secondBase": 8,
       "thirdBase": 2,
       "homeRuns": 4,
       "catches": 6,
@@ -68,14 +68,14 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 20,
+      "atBat": 24,
       "walks": 0,
-      "runsBattedIn": 14,
+      "runsBattedIn": 15,
       "firstBase": 7,
       "secondBase": 2,
       "thirdBase": 0,
-      "homeRuns": 3,
-      "catches": 2,
+      "homeRuns": 4,
+      "catches": 5,
       "mvp": 2
     }
   },
@@ -84,15 +84,15 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 40,
+      "atBat": 45,
       "walks": 0,
-      "runsBattedIn": 16,
-      "firstBase": 21,
+      "runsBattedIn": 19,
+      "firstBase": 24,
       "secondBase": 3,
-      "thirdBase": 1,
+      "thirdBase": 2,
       "homeRuns": 0,
-      "catches": 5,
-      "mvp": 3
+      "catches": 7,
+      "mvp": 4
     }
   },
   {
@@ -116,14 +116,14 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 45,
+      "atBat": 50,
       "walks": 1,
-      "runsBattedIn": 12,
-      "firstBase": 10,
+      "runsBattedIn": 13,
+      "firstBase": 13,
       "secondBase": 8,
       "thirdBase": 0,
       "homeRuns": 2,
-      "catches": 19,
+      "catches": 21,
       "mvp": 3
     }
   },
@@ -148,15 +148,15 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 17,
+      "atBat": 20,
       "walks": 0,
-      "runsBattedIn": 4,
-      "firstBase": 5,
-      "secondBase": 4,
-      "thirdBase": 1,
+      "runsBattedIn": 6,
+      "firstBase": 6,
+      "secondBase": 5,
+      "thirdBase": 2,
       "homeRuns": 0,
-      "catches": 2,
-      "mvp": 0
+      "catches": 3,
+      "mvp": 1
     }
   },
   {
@@ -164,14 +164,14 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 51,
+      "atBat": 56,
       "walks": 0,
-      "runsBattedIn": 25,
-      "firstBase": 22,
-      "secondBase": 9,
+      "runsBattedIn": 29,
+      "firstBase": 24,
+      "secondBase": 10,
       "thirdBase": 1,
-      "homeRuns": 2,
-      "catches": 16,
+      "homeRuns": 3,
+      "catches": 18,
       "mvp": 2
     }
   },
@@ -180,14 +180,14 @@
     "team": "Hackers",
     "gender": "male",
     "stats": {
-      "atBat": 26,
-      "walks": 2,
-      "runsBattedIn": 3,
-      "firstBase": 10,
+      "atBat": 30,
+      "walks": 3,
+      "runsBattedIn": 4,
+      "firstBase": 12,
       "secondBase": 2,
       "thirdBase": 0,
       "homeRuns": 0,
-      "catches": 2,
+      "catches": 3,
       "mvp": 0
     }
   },
@@ -212,10 +212,10 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 30,
+      "atBat": 34,
       "walks": 0,
-      "runsBattedIn": 5,
-      "firstBase": 14,
+      "runsBattedIn": 6,
+      "firstBase": 15,
       "secondBase": 2,
       "thirdBase": 0,
       "homeRuns": 0,
@@ -228,8 +228,8 @@
     "team": "Hackers",
     "gender": "female",
     "stats": {
-      "atBat": 41,
-      "walks": 0,
+      "atBat": 45,
+      "walks": 1,
       "runsBattedIn": 9,
       "firstBase": 9,
       "secondBase": 2,

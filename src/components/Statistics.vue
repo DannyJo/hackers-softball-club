@@ -177,13 +177,14 @@ const playerStats = computed(() => {
     const hits = value.stats.walks + value.stats.firstBase + value.stats.secondBase + value.stats.thirdBase + value.stats.homeRuns;
     const slugPoints = value.stats.firstBase + (value.stats.secondBase * 2) + (value.stats.thirdBase * 3) + (value.stats.homeRuns * 4);
     const atBat = value.stats.atBat;
+    const atBatNoWalks = value.stats.atBat - value.stats.walks;
 
     return {
       ...value,
       stats: {
         ...value.stats,
         hits,
-        slg: atBat === 0 ? 0 : (slugPoints / atBat).toFixed(3),
+        slg: atBat === 0 ? 0 : (slugPoints / atBatNoWalks).toFixed(3),
         avg: atBat === 0 ? 0 : (hits / atBat).toFixed(3)
       }
     }

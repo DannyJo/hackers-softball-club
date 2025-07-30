@@ -120,14 +120,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "HOME",
     "date": "2025-07-23",
     "opposition": "Speeders",
-    "result": "",
-    "mvp": "",
+    "result": "13 - 18",
+    "mvp": "Ella & Millsy",
     "pitch": "G",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
