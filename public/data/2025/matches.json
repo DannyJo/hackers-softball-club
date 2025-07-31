@@ -130,14 +130,14 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "HOME",
     "date": "2025-07-30",
     "opposition": "Mavs II",
-    "result": "",
-    "mvp": "",
+    "result": "17 - 32",
+    "mvp": "Grace & Millsy",
     "pitch": "H",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "RESTING",
