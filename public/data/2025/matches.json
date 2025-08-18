@@ -150,14 +150,14 @@
     "stats":  false
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "LOSS",
     "place": "AWAY",
     "date": "2025-08-13",
     "opposition": "Screwballs",
-    "result": "",
+    "result": "10 - 24",
     "mvp": "",
     "pitch": "F",
-    "stats":  false
+    "stats":  true
   },
   {
     "outcome": "FIXTURE",
