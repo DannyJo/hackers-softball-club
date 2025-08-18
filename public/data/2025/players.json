@@ -128,22 +128,6 @@
     }
   },
   {
-    "name": "Harry",
-    "team": "Hackers",
-    "gender": "male",
-    "stats": {
-      "atBat": 5,
-      "walks": 0,
-      "runsBattedIn": 3,
-      "firstBase": 1,
-      "secondBase": 3,
-      "thirdBase": 0,
-      "homeRuns": 0,
-      "catches": 0,
-      "mvp": 0
-    }
-  },
-  {
     "name": "Millsy",
     "team": "Hackers",
     "gender": "male",
