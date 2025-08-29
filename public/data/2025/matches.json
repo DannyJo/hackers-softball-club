@@ -170,13 +170,13 @@
     "stats":  true
   },
   {
-    "outcome": "FIXTURE",
+    "outcome": "WIN",
     "place": "AWAY",
     "date": "2025-08-27",
     "opposition": "Bats",
-    "result": "",
-    "mvp": "",
+    "result": "23 - 18",
+    "mvp": "Grace & Alex",
     "pitch": "F",
-    "stats":  false
+    "stats":  true
   }
 ]
